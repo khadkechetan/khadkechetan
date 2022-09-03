@@ -2,7 +2,7 @@
 - 👀 I’m interested in Natural Language Processing. 
 - 🌱 I’m currently learning Reinforcement Learning. 
 - 💞️ I’m looking to collaborate on ...
-- 📫 Message me on likedin. https://www.linkedin.com/in/khadke-chetan/
+- 📫 Message me on likedin for any opportunity. https://www.linkedin.com/in/khadke-chetan/
 
 <!---
 khadkechetan/khadkechetan is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
