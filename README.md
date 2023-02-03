@@ -1,7 +1,6 @@
 - 👋 Hi, I’m Chetan
 - 👀 I’m interested in Natural Language Processing. 
 - 🌱 I’m currently learning Reinforcement Learning. 
-- 💞️ I’m looking to collaborate on ...
 - 📫 Message me on likedin for any opportunity. https://www.linkedin.com/in/khadke-chetan/
 
 <!---
