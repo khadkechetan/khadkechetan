@@ -113,7 +113,7 @@
 </table>
 
 <!-- https://github.com/gautamkrishnar/blog-post-workflow -->
-## 📺 Latest YouTube Videos
+## 📺 Articles 
 
 <table>
   <tbody>
