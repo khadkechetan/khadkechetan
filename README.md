@@ -117,10 +117,10 @@
 
 <table>
   <tbody>
-<!-- YOUTUBE:START --><tr><td><a href="https://www.analyticsvidhya.com/blog/2023/03/revolutionizing-document-processing-through-docvqa/"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/khadkechetan-patch-1/images.png"></a></td>
+<!-- YOUTUBE:START --><tr><td><a href="https://www.analyticsvidhya.com/blog/2023/03/revolutionizing-document-processing-through-docvqa/"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/av.png"></a></td>
 <td><a href="https://www.analyticsvidhya.com/blog/2023/03/revolutionizing-document-processing-through-docvqa/">Revolutionizing-document-processing-through-docvqa</a><br/>Mar 16, 2023</td></tr>
-<tr><td><a href="https://www.youtube.com/watch?v=WZNG8UomjSI"><img width="140px" src="https://i.ytimg.com/vi/WZNG8UomjSI/mqdefault.jpg"></a></td>
-<td><a href="https://www.youtube.com/watch?v=WZNG8UomjSI">Build a Weather App with HTML, CSS & JavaScript</a><br/>Dec 10, 2020</td></tr>
+<tr><td><a href="https://www.youtube.com/watch?v=WZNG8UomjSI"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
+<td><a href="https://www.youtube.com/watch?v=WZNG8UomjSI">Address Extraction</a><br/>Dec 10, 2020</td></tr>
 <tr><td><a href="https://www.youtube.com/watch?v=BVX7kZ4GM-g"><img width="140px" src="https://i.ytimg.com/vi/BVX7kZ4GM-g/mqdefault.jpg"></a></td>
 <td><a href="https://www.youtube.com/watch?v=BVX7kZ4GM-g">Making a Responsive (Birthday) Card with HTML and CSS</a><br/>Dec 1, 2020</td></tr>
 <tr><td><a href="https://www.youtube.com/watch?v=gU7b5Vgnalw"><img width="140px" src="https://i.ytimg.com/vi/gU7b5Vgnalw/mqdefault.jpg"></a></td>
