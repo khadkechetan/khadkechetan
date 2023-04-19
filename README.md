@@ -31,8 +31,8 @@
 ## 🙋‍♂️ Connect with me:
 
 <p align="left">
-<a href = 'https://www.linkedin.com/in/khadke-chetan/'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/linked-in-alt.svg"/></a>&nbsp;
-<a href = 'https://medium.com/@khadkechetan'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/medium.svg"/>&nbsp;
+<a href = 'https://www.linkedin.com/in/khadke-chetan/'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/linked-in-alt.svg"/></a>&nbsp;&nbsp;&nbsp;
+<a href = 'https://medium.com/@khadkechetan'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/medium.svg"/>&nbsp;&nbsp;&nbsp;
 <a href = 'https://github.com/khadkechetan'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
 </p>
 
