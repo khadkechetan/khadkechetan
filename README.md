@@ -88,7 +88,7 @@
   <a href="https://github.com/khadkechetan?tab=repositories"><img alt="Portfolio" title="Portfolio" src="https://img.shields.io/badge/-More%20Repos-black?style=for-the-badge&logo=addthis&logoColor=white"/></a>
 </p>
 
-<h3 align="left" style="color:Navy;">⭐ Stars and claps are appreciated!</h3>
+<h3 style="color:Navy;align:left">⭐ Stars and claps are appreciated!</h3>
 
 
 
