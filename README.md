@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://medium.com/@khadkechetan"><img alt="followers" title="Follow me on Medium" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.design%2Flogos-and-brand-guidelines-f1a01a733592&psig=AOvVaw2-DKtGIO4tjRXdrJQKT3Fn&ust=1681969668195000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNiF0MOftf4CFQAAAAAdAAAAABAJ"/></a>
-  <a href="https://github.com/khadkechetan"><img alt="followers" title="Follow me on Github" src="[https://img.shields.io/badge/Follow-LinkedIn-blue](https://shields.io/badge/Follow-150-blue?logo=github&style=social)"/></a>
+  <a href="https://github.com/khadkechetan"><img alt="followers" title="Follow me on Github" src="https://shields.io/badge/Follow-150-blue?logo=github&style=social"/></a>
 </p>
 
 ## 📖 About me
