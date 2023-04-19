@@ -11,7 +11,7 @@
 
 ## 📖 About me
 
-👋 Hi, I’m Chetan
+👋 Hi, I’m Chetan Khadke from Pune, India.
 
 👀 I’m interested in Natural Language Processing.
 
@@ -22,16 +22,11 @@
 📫 Research Paper link Paper <a href="https://scholar.google.com/citations?hl=en&user=2dFX46AAAAAJ"> link </a>
 
 
-<p align="left">
-  <a href="https://freshidea.com/jonah/"><img alt="Portfolio" title="Portfolio" src="https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=koding&logoColor=white"/></a>
-    <a href="http://eyl327.mywebcommunity.org/promos/"><img alt="Gifts" title="Gifts for you" src="https://img.shields.io/badge/-Links%20to%20free%20stuff-000000?style=for-the-badge&logo=coveralls&logoColor=white"/></a>
-</p>
+
+<h3 align="left">⬇ Scroll down to see <a href="https://github.com/khadkechetan?tab=repositories">my repos</a>! ⭐ Stars are appreciated!</h3>
 
 
-<h3 align="center">⬇ Scroll down to see <a href="https://github.com/khadkechetan?tab=repositories">my repos</a>! ⭐ Stars are appreciated!</h3>
-
-
-## 📘 My top open source projects
+## 📘 My top projects
 
 <table>
   <thead align="center">
@@ -54,7 +49,7 @@
 
 
 <p align="left">
-  <a href="https://github.com/DenverCoder1?tab=repositories"><img alt="Portfolio" title="Portfolio" src="https://img.shields.io/badge/-More%20Repos-black?style=for-the-badge&logo=addthis&logoColor=white"/></a>
+  <a href="https://github.com/khadkechetan?tab=repositories"><img alt="Portfolio" title="Portfolio" src="https://img.shields.io/badge/-More%20Repos-black?style=for-the-badge&logo=addthis&logoColor=white"/></a>
 </p>
 
 ## 👨‍💻 Languages and Tools:
@@ -122,11 +117,12 @@
 <td><a href="https://medium.com/analytics-vidhya/salesforce-vision-integration-with-salesforce-app-d758369dc37f">Salesforce Vision Integration with Salesforce App</a><br/>Nov 10, 2020</td></tr>
 <tr><td><a href="https://medium.com/analytics-vidhya/salesforce-vision-3c9c6b9cab31"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
 <td><a href="https://medium.com/analytics-vidhya/salesforce-vision-3c9c6b9cab31">Salesforce Einstein Vision</a><br/>Nov 3, 2020</td></tr>
+<tr><td><a href="https://www.persistent.com/blogs/the-dataiku-dss-your-path-to-enterprise-ai/#"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/psl.jpg"></a></td>
+<td><a href="https://www.persistent.com/blogs/the-dataiku-dss-your-path-to-enterprise-ai/#">The DataIKU DSS: Your Path to Enterprise AI</a><br/>Jan 30, 2020</td></tr>
 <!-- YOUTUBE:END -->
 </tbody>
   </table>
 
-[<img src="https://img.shields.io/badge/-Subscribe-red?style=for-the-badge&logo=youtube&logoColor=white"/>](https://www.youtube.com/c/DevProTips?sub_confirmation=1)
 
 ## 🙋‍♂️ Connect with me:
 
