@@ -1,11 +1,135 @@
-- 👋 Hi, I’m Chetan
-- 👀 I’m interested in Natural Language Processing. 
-- 🌱 I’m currently learning Reinforcement Learning. 
-- 📫 Message me on likedin for any opportunity. https://www.linkedin.com/in/khadke-chetan/
-- Paper link: https://scholar.google.com/citations?hl=en&user=2dFX46AAAAAJ 
+<a href="#"><img width="100%" height="auto" src="https://i.imgur.com/iXuL1HG.png" height="175px"/></a>
+
+<h3 align="center">Hey there, I'm <a href="https://www.linkedin.com/in/khadke-chetan/">Chetan Khadke</a> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="28"/></h3>
+
+<p align="center">
+<a href = 'https://www.linkedin.com/in/khadke-chetan/'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/linked-in-alt.svg"/></a>&nbsp;&nbsp;&nbsp;
+<a href = 'https://medium.com/@khadkechetan'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/medium.svg"/>&nbsp;&nbsp;&nbsp;
+<a href = 'https://github.com/khadkechetan'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
+</p>
 
 
-<!---
-khadkechetan/khadkechetan is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## 📖 About me
+
+👋 Hi, I’m Chetan Khadke from Pune, India.
+
+👀 I’m interested in Natural Language Processing.
+
+🌱 I’m currently learning Reinforcement Learning.
+
+📫 Message me on likedin for any opportunity on <a href="https://www.linkedin.com/in/khadke-chetan/"> LinkedIn </a>
+
+:scroll: Research Paper link Paper <a href="https://scholar.google.com/citations?hl=en&user=2dFX46AAAAAJ"> link </a>
+
+
+
+
+## 📘 Top GIT projects
+
+<table>
+  <thead align="center">
+    <tr border: none;>
+      <td><b>📘 Project</b></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/khadkechetan/information_extraction"><b>Information extraction from Document</b></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/khadkechetan/address_parser"><b>Address Parser</b></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/khadkechetan/section_extraction"><b>Section extraction from Documents</b></a></td>
+    </tr>
+  </tbody>
+</table>
+
+
+<p align="left">
+  <a href="https://github.com/khadkechetan?tab=repositories"><img alt="Portfolio" title="Portfolio" src="https://img.shields.io/badge/-More%20Repos-black?style=for-the-badge&logo=addthis&logoColor=white"/></a>
+</p>
+
+<h3 align="left">⭐ Stars and claps are appreciated!</h3>
+
+
+
+## 👨‍💻 Languages and Tools:
+
+<table>
+    <tbody>
+        <tr>
+            <td><a href="#"><img alt="JavaScript" title="JavaScript" height="28px"
+                        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" /></a>
+            </td>
+            <td><a href="#"><img alt="HTML5" title="HTML5" height="28px"
+                        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" /></a>
+            </td>
+            <td><a href="#"><img alt="CSS3" title="CSS3" height="28px"
+                        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" /></a>
+            </td>
+            <td><a href="#"><img alt="PHP" title="PHP" height="28px"
+                        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png" /></a>
+            </td>
+            <td><a href="#"><img alt="Python" title="Python" height="28px"
+                        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" /></a>
+            </td>
+        </tr>
+        <tr>
+            <td><a href="#"><img alt="C++" title="C++" height="28px"
+                        src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" /></a></td>
+            <td><a href="#"><img alt="C#" title="C#" height="28px"
+                        src="https://img.icons8.com/color/48/000000/c-sharp-logo.png" /></a></td>
+            <td><a href="#"><img alt="Java" title="Java" height="28px"
+                        src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" /></a></td>
+            <td><a href="#"><img alt="Kotlin" title="Kotlin" height="28px"
+                        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kotlin/kotlin.png" /></a>
+            </td>
+            <td><a href="#"><img alt="Flutter" title="Flutter" height="28px"
+                        src="https://img.icons8.com/color/48/000000/flutter.png" /></a></td>
+        </tr>
+        <tr>
+            <td><a href="#"><img alt="Terminal" title="Terminal" height="28px"
+                        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" /></a>
+            </td>
+            <td><a href="#"><img alt="Visual Studio" title="Visual Studio Code" height="28px"
+                        src="https://img.icons8.com/fluent/48/000000/visual-studio-code-2019.png" /></a></td>
+            <td><a href="#"><img alt="Android Studio" title="Android Studio" height="28px"
+                        src="https://i.imgur.com/6nJGNMN.png" /></a></td>
+            <td><a href="#"><img alt="Heroku" title="Heroku" height="28px"
+                        src="https://img.icons8.com/color/48/000000/heroku.png" /></a></td>
+            <td><a href="https://brave.com/eyl243"><img alt="Brave" title="Brave" height="28px"
+                        src="https://i.imgur.com/UfBWFbP.png" /></a></td>
+        </tr>
+    </tbody>
+</table>
+
+
+## :open_book: Articles 
+
+<table>
+  <tbody>
+<!-- YOUTUBE:START --><tr><td><a href="https://www.analyticsvidhya.com/blog/2023/03/revolutionizing-document-processing-through-docvqa/"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/av.png"></a></td>
+<td><a href="https://www.analyticsvidhya.com/blog/2023/03/revolutionizing-document-processing-through-docvqa/">Revolutionizing-document-processing-through-docvqa</a><br/>Mar 16, 2023</td></tr>
+<tr><td><a href="https://www.youtube.com/watch?v=WZNG8UomjSI"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
+<td><a href="https://khadkechetan.medium.com/address-extraction-and-parser-with-nlp-4d3db7b9535d">Address Extraction and Parser with NLP</a><br/>FEB 1, 2023</td></tr>
+<tr><td><a href="https://chatbotslife.com/information-extraction-with-donut-1a7267ab6993"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
+<td><a href="https://chatbotslife.com/information-extraction-with-donut-1a7267ab6993">Information Extraction with DONUT</a><br/>Aug 29, 2022</td></tr>
+<tr><td><a href="https://medium.com/analytics-vidhya/salesforce-vision-integration-with-salesforce-app-d758369dc37f"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
+<td><a href="https://medium.com/analytics-vidhya/salesforce-vision-integration-with-salesforce-app-d758369dc37f">Salesforce Vision Integration with Salesforce App</a><br/>Nov 10, 2020</td></tr>
+<tr><td><a href="https://medium.com/analytics-vidhya/salesforce-vision-3c9c6b9cab31"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
+<td><a href="https://medium.com/analytics-vidhya/salesforce-vision-3c9c6b9cab31">Salesforce Einstein Vision</a><br/>Nov 3, 2020</td></tr>
+<tr><td><a href="https://www.persistent.com/blogs/the-dataiku-dss-your-path-to-enterprise-ai/#"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/psl.jpg"></a></td>
+<td><a href="https://www.persistent.com/blogs/the-dataiku-dss-your-path-to-enterprise-ai/#">The DataIKU DSS: Your Path to Enterprise AI</a><br/>Jan 30, 2020</td></tr>
+<!-- YOUTUBE:END -->
+</tbody>
+  </table>
+
+
+## 🙋‍♂️ Connect with me:
+
+<p align="left">
+<a href = 'https://www.linkedin.com/in/khadke-chetan/'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/linked-in-alt.svg"/></a>&nbsp;&nbsp;&nbsp;
+<a href = 'https://medium.com/@khadkechetan'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/medium.svg"/>&nbsp;&nbsp;&nbsp;
+<a href = 'https://github.com/khadkechetan'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
+</p>
