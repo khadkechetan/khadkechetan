@@ -1,10 +1,10 @@
 <a href="#"><img width="100%" height="auto" src="https://i.imgur.com/iXuL1HG.png" height="175px"/></a>
 
-<h3 align="center">Hey there, I'm <a href="https://www.linkedin.com/in/khadke-chetan/">Chetan</a> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="28"/></h3>
+<h3 align="center">Hey there, I'm <a href="https://www.linkedin.com/in/khadke-chetan/">Chetan Khadke</a> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="28"/></h3>
 
 <p align="center">
   <a href="https://medium.com/@khadkechetan"><img alt="followers" title="Follow me on Medium" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.design%2Flogos-and-brand-guidelines-f1a01a733592&psig=AOvVaw2-DKtGIO4tjRXdrJQKT3Fn&ust=1681969668195000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNiF0MOftf4CFQAAAAAdAAAAABAJ"/></a>
-  <a href="https://github.com/khadkechetan"><img alt="followers" title="Follow me on Github" src="https://img.shields.io/github/followers/DenverCoder1?color=236ad3&style=for-the-badge&logo=github&label=Follow"/></a>
+  <a href="https://github.com/khadkechetan"><img alt="followers" title="Follow me on Github" src="[https://img.shields.io/badge/Follow-LinkedIn-blue](https://shields.io/badge/Follow-150-blue?logo=github&style=social)"/></a>
 </p>
 
 ## 📖 About me
