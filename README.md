@@ -126,6 +126,24 @@
   </table>
 
 
+## :open_book: Research Paper 
+
+<table>
+  <tbody>
+<!-- YOUTUBE:START -->
+<tr>
+<td><a href="https://khadkechetan.medium.com/address-extraction-and-parser-with-nlp-4d3db7b9535d">Knowledge transition: Discovering workflow models from functional tests</a><br/>Nov 2, 2015</td></tr>
+<tr>
+<td><a href="https://khadkechetan.medium.com/address-extraction-and-parser-with-nlp-4d3db7b9535d">Recovering workflows from functional tests</a><br/>MAy 16, 2015</td></tr>
+<tr>
+<td><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2dFX46AAAAAJ&citation_for_view=2dFX46AAAAAJ:r0BpntZqJG4C">Mining process models and architectural components from test cases</a><br/>Apr 13, 2015</td></tr>
+
+<!-- YOUTUBE:END -->
+</tbody>
+  </table>
+
+
+
 ## 🙋‍♂️ Connect with me:
 
 <p align="left">
