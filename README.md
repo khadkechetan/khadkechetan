@@ -24,6 +24,44 @@
 
 
 
+## :open_book: Articles 
+
+<table>
+  <tbody>
+<!-- YOUTUBE:START --><tr><td><a href="https://www.analyticsvidhya.com/blog/2023/03/revolutionizing-document-processing-through-docvqa/"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/av.png"></a></td>
+<td><a href="https://www.analyticsvidhya.com/blog/2023/03/revolutionizing-document-processing-through-docvqa/">Revolutionizing-document-processing-through-docvqa</a><br/>Mar 16, 2023</td></tr>
+<tr><td><a href="https://www.youtube.com/watch?v=WZNG8UomjSI"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
+<td><a href="https://khadkechetan.medium.com/address-extraction-and-parser-with-nlp-4d3db7b9535d">Address Extraction and Parser with NLP</a><br/>FEB 1, 2023</td></tr>
+<tr><td><a href="https://chatbotslife.com/information-extraction-with-donut-1a7267ab6993"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
+<td><a href="https://chatbotslife.com/information-extraction-with-donut-1a7267ab6993">Information Extraction with DONUT</a><br/>Aug 29, 2022</td></tr>
+<tr><td><a href="https://medium.com/analytics-vidhya/salesforce-vision-integration-with-salesforce-app-d758369dc37f"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
+<td><a href="https://medium.com/analytics-vidhya/salesforce-vision-integration-with-salesforce-app-d758369dc37f">Salesforce Vision Integration with Salesforce App</a><br/>Nov 10, 2020</td></tr>
+<tr><td><a href="https://medium.com/analytics-vidhya/salesforce-vision-3c9c6b9cab31"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
+<td><a href="https://medium.com/analytics-vidhya/salesforce-vision-3c9c6b9cab31">Salesforce Einstein Vision</a><br/>Nov 3, 2020</td></tr>
+<tr><td><a href="https://www.persistent.com/blogs/the-dataiku-dss-your-path-to-enterprise-ai/#"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/psl.jpg"></a></td>
+<td><a href="https://www.persistent.com/blogs/the-dataiku-dss-your-path-to-enterprise-ai/#">The DataIKU DSS: Your Path to Enterprise AI</a><br/>Jan 30, 2020</td></tr>
+<!-- YOUTUBE:END -->
+</tbody>
+  </table>
+
+
+## :open_book: Research Paper 
+
+<table>
+  <tbody>
+<!-- YOUTUBE:START -->
+<tr>
+<td><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2dFX46AAAAAJ&sortby=pubdate&citation_for_view=2dFX46AAAAAJ:f2IySw72cVMC">Knowledge transition: Discovering workflow models from functional tests</a><br/>Nov 2, 2015</td></tr>
+<tr>
+<td><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2dFX46AAAAAJ&sortby=pubdate&citation_for_view=2dFX46AAAAAJ:L8Ckcad2t8MC">Recovering workflows from functional tests</a><br/>May 16, 2015</td></tr>
+<tr>
+<td><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2dFX46AAAAAJ&sortby=pubdate&citation_for_view=2dFX46AAAAAJ:r0BpntZqJG4C">Mining process models and architectural components from test cases</a><br/>Apr 13, 2015</td></tr>
+
+<!-- YOUTUBE:END -->
+</tbody>
+  </table>
+
+
 ## 📘 Top GIT projects
 
 <table>
@@ -50,7 +88,7 @@
   <a href="https://github.com/khadkechetan?tab=repositories"><img alt="Portfolio" title="Portfolio" src="https://img.shields.io/badge/-More%20Repos-black?style=for-the-badge&logo=addthis&logoColor=white"/></a>
 </p>
 
-<h3 align="left">⭐ Stars and claps are appreciated!</h3>
+<h3 align="left" style="color:Navy;">⭐ Stars and claps are appreciated!</h3>
 
 
 
@@ -103,44 +141,6 @@
         </tr>
     </tbody>
 </table>
-
-
-## :open_book: Articles 
-
-<table>
-  <tbody>
-<!-- YOUTUBE:START --><tr><td><a href="https://www.analyticsvidhya.com/blog/2023/03/revolutionizing-document-processing-through-docvqa/"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/av.png"></a></td>
-<td><a href="https://www.analyticsvidhya.com/blog/2023/03/revolutionizing-document-processing-through-docvqa/">Revolutionizing-document-processing-through-docvqa</a><br/>Mar 16, 2023</td></tr>
-<tr><td><a href="https://www.youtube.com/watch?v=WZNG8UomjSI"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
-<td><a href="https://khadkechetan.medium.com/address-extraction-and-parser-with-nlp-4d3db7b9535d">Address Extraction and Parser with NLP</a><br/>FEB 1, 2023</td></tr>
-<tr><td><a href="https://chatbotslife.com/information-extraction-with-donut-1a7267ab6993"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
-<td><a href="https://chatbotslife.com/information-extraction-with-donut-1a7267ab6993">Information Extraction with DONUT</a><br/>Aug 29, 2022</td></tr>
-<tr><td><a href="https://medium.com/analytics-vidhya/salesforce-vision-integration-with-salesforce-app-d758369dc37f"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
-<td><a href="https://medium.com/analytics-vidhya/salesforce-vision-integration-with-salesforce-app-d758369dc37f">Salesforce Vision Integration with Salesforce App</a><br/>Nov 10, 2020</td></tr>
-<tr><td><a href="https://medium.com/analytics-vidhya/salesforce-vision-3c9c6b9cab31"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
-<td><a href="https://medium.com/analytics-vidhya/salesforce-vision-3c9c6b9cab31">Salesforce Einstein Vision</a><br/>Nov 3, 2020</td></tr>
-<tr><td><a href="https://www.persistent.com/blogs/the-dataiku-dss-your-path-to-enterprise-ai/#"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/psl.jpg"></a></td>
-<td><a href="https://www.persistent.com/blogs/the-dataiku-dss-your-path-to-enterprise-ai/#">The DataIKU DSS: Your Path to Enterprise AI</a><br/>Jan 30, 2020</td></tr>
-<!-- YOUTUBE:END -->
-</tbody>
-  </table>
-
-
-## :open_book: Research Paper 
-
-<table>
-  <tbody>
-<!-- YOUTUBE:START -->
-<tr>
-<td><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2dFX46AAAAAJ&sortby=pubdate&citation_for_view=2dFX46AAAAAJ:f2IySw72cVMC">Knowledge transition: Discovering workflow models from functional tests</a><br/>Nov 2, 2015</td></tr>
-<tr>
-<td><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2dFX46AAAAAJ&sortby=pubdate&citation_for_view=2dFX46AAAAAJ:L8Ckcad2t8MC">Recovering workflows from functional tests</a><br/>MAy 16, 2015</td></tr>
-<tr>
-<td><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2dFX46AAAAAJ&sortby=pubdate&citation_for_view=2dFX46AAAAAJ:r0BpntZqJG4C">Mining process models and architectural components from test cases</a><br/>Apr 13, 2015</td></tr>
-
-<!-- YOUTUBE:END -->
-</tbody>
-  </table>
 
 
 
