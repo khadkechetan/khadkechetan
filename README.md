@@ -3,17 +3,22 @@
 <h3 align="center">Hey there, I'm <a href="https://www.linkedin.com/in/khadke-chetan/">Chetan</a> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="28"/></h3>
 
 <p align="center">
-  <a href="https://medium.com/@khadkechetan"><img alt="followers" title="Follow me on Medium" src="https://img.shields.io/twitter/follow/DenverCoder1?color=55960c&label=Follow&logo=twitter&logoColor=white&style=for-the-badge"/></a>
+  <a href="https://medium.com/@khadkechetan"><img alt="followers" title="Follow me on Medium" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.design%2Flogos-and-brand-guidelines-f1a01a733592&psig=AOvVaw2-DKtGIO4tjRXdrJQKT3Fn&ust=1681969668195000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNiF0MOftf4CFQAAAAAdAAAAABAJ"/></a>
   <a href="https://github.com/khadkechetan"><img alt="followers" title="Follow me on Github" src="https://img.shields.io/github/followers/DenverCoder1?color=236ad3&style=for-the-badge&logo=github&label=Follow"/></a>
 </p>
 
 ## 📖 About me
 
 👋 Hi, I’m Chetan
+
 👀 I’m interested in Natural Language Processing.
+
 🌱 I’m currently learning Reinforcement Learning.
-📫 Message me on likedin for any opportunity. https://www.linkedin.com/in/khadke-chetan/
-Paper link: https://scholar.google.com/citations?hl=en&user=2dFX46AAAAAJ
+
+📫 Message me on likedin for any opportunity on <a href="https://www.linkedin.com/in/khadke-chetan/"> LinkedIn </a>
+
+📫 Research Paper link Paper <a href="https://scholar.google.com/citations?hl=en&user=2dFX46AAAAAJ"> link </a>
+
 
 <p align="left">
   <a href="https://freshidea.com/jonah/"><img alt="Portfolio" title="Portfolio" src="https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=koding&logoColor=white"/></a>
