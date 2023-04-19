@@ -2,16 +2,12 @@
 
 <h3 align="center">Hey there, I'm <a href="https://www.linkedin.com/in/khadke-chetan/">Chetan Khadke</a> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="28"/></h3>
 
-<p align="left">
+<p align="center">
 <a href = 'https://www.linkedin.com/in/khadke-chetan/'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/linked-in-alt.svg"/></a>&nbsp;&nbsp;&nbsp;
 <a href = 'https://medium.com/@khadkechetan'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/medium.svg"/>&nbsp;&nbsp;&nbsp;
 <a href = 'https://github.com/khadkechetan'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
 </p>
 
-<p align="center">
-  <a href="https://medium.com/@khadkechetan"><img alt="followers" title="Follow me on Medium" src="https://img.shields.io/badge/Follow-Medium-lightgrey"/></a>
-  <a href="https://github.com/khadkechetan"><img alt="followers" title="Follow me on Github" src="https://shields.io/badge/Follow-150-blue?logo=github&style=social"/></a>
-</p>
 
 ## 📖 About me
 
