@@ -19,14 +19,12 @@
 
 📫 Message me on likedin for any opportunity on <a href="https://www.linkedin.com/in/khadke-chetan/"> LinkedIn </a>
 
-📫 Research Paper link Paper <a href="https://scholar.google.com/citations?hl=en&user=2dFX46AAAAAJ"> link </a>
+:scroll: Research Paper link Paper <a href="https://scholar.google.com/citations?hl=en&user=2dFX46AAAAAJ"> link </a>
 
 
 
-<h3 align="left">⬇ Scroll down to see <a href="https://github.com/khadkechetan?tab=repositories">my repos</a>! ⭐ Stars are appreciated!</h3>
 
-
-## 📘 My top projects
+## 📘 Top GIT projects
 
 <table>
   <thead align="center">
@@ -51,6 +49,10 @@
 <p align="left">
   <a href="https://github.com/khadkechetan?tab=repositories"><img alt="Portfolio" title="Portfolio" src="https://img.shields.io/badge/-More%20Repos-black?style=for-the-badge&logo=addthis&logoColor=white"/></a>
 </p>
+
+<h3 align="left">⭐ Stars and claps are appreciated!</h3>
+
+
 
 ## 👨‍💻 Languages and Tools:
 
@@ -102,8 +104,8 @@
     </tbody>
 </table>
 
-<!-- https://github.com/gautamkrishnar/blog-post-workflow -->
-## 📺 Articles 
+
+## :open_book: Articles 
 
 <table>
   <tbody>
