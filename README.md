@@ -28,6 +28,8 @@
 
 <table>
   <tbody>
+<tr><td><a href="https://www.analyticsvidhya.com/blog/2023/04/document-information-extraction-using-pix2struct/"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/av.png"></a></td>
+<td><a href="https://www.analyticsvidhya.com/blog/2023/04/document-information-extraction-using-pix2struct/">Document Information Extraction Using Pix2Struct</a><br/>Apr 26, 2023</td></tr>
 <!-- YOUTUBE:START --><tr><td><a href="https://www.analyticsvidhya.com/blog/2023/03/revolutionizing-document-processing-through-docvqa/"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/av.png"></a></td>
 <td><a href="https://www.analyticsvidhya.com/blog/2023/03/revolutionizing-document-processing-through-docvqa/">Revolutionizing-document-processing-through-docvqa</a><br/>Mar 16, 2023</td></tr>
 <tr><td><a href="https://www.youtube.com/watch?v=WZNG8UomjSI"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
