@@ -13,9 +13,9 @@
 
 👋 Hi, I’m Chetan Khadke from Pune, India.
 
-👀 I’m interested in Natural Language Processing.
+👀 I have expertise in Natural Language Processing, Machine Learning, Deep Learning.
 
-🌱 I’m currently learning Reinforcement Learning.
+🌱 I’m currently learning Deep Reinforcement Learning.
 
 📫 Message me on likedin for any opportunity on <a href="https://www.linkedin.com/in/khadke-chetan/"> LinkedIn </a>
 
