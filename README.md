@@ -30,6 +30,10 @@
   <tbody>
  <tr><td><a href="https://khadkechetan.medium.com/information-extraction-with-zephyr-7b-774e773c9cb2?source=friends_link&sk=471090a057daff6f5385900bfa16a324"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
 <td><a href="https://khadkechetan.medium.com/information-extraction-with-zephyr-7b-774e773c9cb2?source=friends_link&sk=471090a057daff6f5385900bfa16a324">Information extraction with Zephyr 7B</a><br/>Nov 27, 2023</td></tr>
+
+ <tr><td><a href="https://khadkechetan.medium.com/information-extraction-with-llm-chetan-kkhadke-cc41674b380?source=friends_link&sk=91a34c8579be7c1a656bf882633dac52"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
+<td><a href="https://khadkechetan.medium.com/information-extraction-with-llm-chetan-kkhadke-cc41674b380?source=friends_link&sk=91a34c8579be7c1a656bf882633dac52">Information extraction with LLM</a><br/>Aug 2, 2023</td></tr>
+ 
  <tr><td><a href="https://khadkechetan.medium.com/mind-your-words-with-nlp-f352670af765"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
 <td><a href="https://khadkechetan.medium.com/mind-your-words-with-nlp-f352670af765">Mind Your Words with NLP</a><br/>May 26, 2023</td></tr>
 <tr><td><a href="https://www.analyticsvidhya.com/blog/2023/04/document-information-extraction-using-pix2struct/"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/av.png"></a></td>
