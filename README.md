@@ -28,6 +28,10 @@
 
 <table>
   <tbody>
+
+ <tr><td><a href="https://medium.com/p/47111b8bd035"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
+<td><a href="https://medium.com/p/47111b8bd035">Information extraction with Mistral 8x7B</a><br/>Feb 20, 2024</td></tr>
+    
  <tr><td><a href="https://khadkechetan.medium.com/information-extraction-with-zephyr-7b-774e773c9cb2?source=friends_link&sk=471090a057daff6f5385900bfa16a324"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
 <td><a href="https://khadkechetan.medium.com/information-extraction-with-zephyr-7b-774e773c9cb2?source=friends_link&sk=471090a057daff6f5385900bfa16a324">Information extraction with Zephyr 7B</a><br/>Nov 27, 2023</td></tr>
 
