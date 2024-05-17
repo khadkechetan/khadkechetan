@@ -28,7 +28,9 @@
 
 <table>
   <tbody>
-
+  <tr><td><a href="https://khadkechetan.medium.com/natural-language-to-sql-query-using-an-open-source-llm-6b4b91a5519a?source=friends_link&sk=696521bd71a4ff394f3abdf3cf3414f2"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
+  <td><a href="https://khadkechetan.medium.com/natural-language-to-sql-query-using-an-open-source-llm-6b4b91a5519a?source=friends_link&sk=696521bd71a4ff394f3abdf3cf3414f2">Natural Language to SQL Query using an Open Source LLM</a><br/>May 17, 2024</td></tr>
+  
  <tr><td><a href="https://medium.com/p/47111b8bd035"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
 <td><a href="https://medium.com/p/47111b8bd035">Information extraction with Mistral 8x7B</a><br/>Feb 20, 2024</td></tr>
     
