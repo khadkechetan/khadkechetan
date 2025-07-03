@@ -18,7 +18,7 @@
 
 📫 Message me on likedin for any opportunity on <a href="https://www.linkedin.com/in/khadke-chetan/"> LinkedIn </a> 
 
-📫 Latest Resume <a href="https://github.com/khadkechetan/khadkechetan/blob/main/resume/ChetanKhadkeResume.pdf"> Resume </a>
+📫 Latest Resume <a href="https://github.com/khadkechetan/khadkechetan/blob/main/resume/ResumeKhadkeChetan7.pdf"> Resume </a>
 
 :scroll: Research Paper link Paper <a href="https://scholar.google.com/citations?hl=en&user=2dFX46AAAAAJ"> link </a>
 
