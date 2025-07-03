@@ -11,11 +11,10 @@
 
 ## 📖 About me
 
-👋 Hi, I’m Chetan Khadke from Pune, India.
+👋 Hi, I’m Chetan Khadke from New Jersey, USA. 
 
 👀 I have expertise in Natural Language Processing, Large Langugae Model ,Machine Learning, Deep Learning.
 
-🌱 I’m currently learning Deep Reinforcement Learning.
 
 📫 Message me on likedin for any opportunity on <a href="https://www.linkedin.com/in/khadke-chetan/"> LinkedIn </a> 
 
