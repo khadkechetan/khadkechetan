@@ -1,170 +1,209 @@
-<a href="#"><img width="100%" height="auto" src="https://i.imgur.com/iXuL1HG.png" height="175px"/></a>
-
-<h3 align="center">Hey there, I'm <a href="https://www.linkedin.com/in/khadke-chetan/">Chetan Khadke</a> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="28"/></h3>
+<a href="#"><img width="100%" height="auto" src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80" alt="AI Neural Network Banner"/></a>
 
 <p align="center">
-<a href = 'https://www.linkedin.com/in/khadke-chetan/'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/linked-in-alt.svg"/></a>&nbsp;&nbsp;&nbsp;
-<a href = 'https://medium.com/@khadkechetan'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/medium.svg"/>&nbsp;&nbsp;&nbsp;
-<a href = 'https://github.com/khadkechetan'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
+<a href = 'https://www.linkedin.com/in/khadke-chetan/' target="_blank"> <img width = '50px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/linked-in-alt.svg"/></a>&nbsp;&nbsp;&nbsp;
+<a href = 'https://medium.com/@khadkechetan' target="_blank"> <img width = '50px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/medium.svg"/></a>
 </p>
 
+<h1 align="center">Chetan Khadke</h1>
 
-## 📖 About me
+<p align="center">
+  <img src="https://img.shields.io/badge/AI%20Innovation-%23FFD700?style=for-the-badge&logo=openai&logoColor=black" />
+  <img src="https://img.shields.io/badge/LLM%20Expert-%2300BFFF?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/NLP%20Specialist-%23FF69B4?style=for-the-badge&logo=spacy&logoColor=white" />
+</p>
 
-👋 Hi, I’m Chetan Khadke from New Jersey, USA. 
+<p align="center">
+  <img src="https://img.shields.io/badge/Location-New%20Jersey%2C%20USA-green"/>
+  <img src="https://img.shields.io/badge/Focus-AI%20|%20LLM%20|%20AI%20Agent-blue" />
+</p>
 
-👀 I have expertise in Natural Language Processing, Large Langugae Model ,Machine Learning, Deep Learning.
+---
 
+## 🚀 About Me
 
-📫 Message me on likedin for any opportunity on <a href="https://www.linkedin.com/in/khadke-chetan/"> LinkedIn </a> 
+AI expert with expertise in Natural Language Processing, Large Language Models, Machine Learning, and Deep Learning. Passionate about building intelligent systems and sharing knowledge through research and writing.
 
-📫 Latest Resume <a href="https://github.com/khadkechetan/khadkechetan/blob/main/resume/ResumeKhadkeChetan7.pdf"> Resume </a>
+- 📍 New Jersey, USA
+- 📄 [Resume](https://github.com/khadkechetan/khadkechetan/blob/main/resume/ResumeKhadkeChetan7.pdf)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/khadke-chetan/)
+- ✍️ [Medium](https://medium.com/@khadkechetan)
+- 📚 [Google Scholar](https://scholar.google.com/citations?hl=en&user=2dFX46AAAAAJ)
 
-:scroll: Research Paper link Paper <a href="https://scholar.google.com/citations?hl=en&user=2dFX46AAAAAJ"> link </a>
+---
 
+## 📝 Featured Articles
 
-
-
-## :open_book: Articles 
-
+<div align="center">
 <table>
+  <thead>
+    <tr>
+      <th>Image</th>
+      <th>Title & Link</th>
+      <th>Platform</th>
+      <th>Date</th>
+    </tr>
+  </thead>
   <tbody>
-  <tr><td><a href="https://khadkechetan.medium.com/natural-language-to-sql-query-using-an-open-source-llm-6b4b91a5519a?source=friends_link&sk=696521bd71a4ff394f3abdf3cf3414f2"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
-  <td><a href="https://khadkechetan.medium.com/natural-language-to-sql-query-using-an-open-source-llm-6b4b91a5519a?source=friends_link&sk=696521bd71a4ff394f3abdf3cf3414f2">Natural Language to SQL Query using an Open Source LLM</a><br/>May 17, 2024</td></tr>
-  
- <tr><td><a href="https://medium.com/p/47111b8bd035"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
-<td><a href="https://medium.com/p/47111b8bd035">Information extraction with Mistral 8x7B</a><br/>Feb 20, 2024</td></tr>
-    
- <tr><td><a href="https://khadkechetan.medium.com/information-extraction-with-zephyr-7b-774e773c9cb2?source=friends_link&sk=471090a057daff6f5385900bfa16a324"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
-<td><a href="https://khadkechetan.medium.com/information-extraction-with-zephyr-7b-774e773c9cb2?source=friends_link&sk=471090a057daff6f5385900bfa16a324">Information extraction with Zephyr 7B</a><br/>Nov 27, 2023</td></tr>
+   <tr>
+      <td><a href="https://khadkechetan.medium.com/natural-language-to-sql-query-using-an-open-source-llm-6b4b91a5519a?source=friends_link&sk=696521bd71a4ff394f3abdf3cf3414f2"><img width="80px" src="https://raw.githubusercontent.com/khadkechetan/khadkechetan/main/logo/medium.png"></a></td>
+      <td><a href="https://khadkechetan.medium.com/information-extraction-with-vision-models-238b347ae8e6"><b>NInformation Extraction with Vision Models</b></a></td>
+      <td>Medium</td>
+      <td>Nov 30, 2024</td>
+    </tr>
+    <tr>
+    <tr>
+      <td><a href="https://khadkechetan.medium.com/natural-language-to-sql-query-using-an-open-source-llm-6b4b91a5519a?source=friends_link&sk=696521bd71a4ff394f3abdf3cf3414f2"><img width="80px" src="https://raw.githubusercontent.com/khadkechetan/khadkechetan/main/logo/medium.png"></a></td>
+      <td><a href="https://khadkechetan.medium.com/natural-language-to-sql-query-using-an-open-source-llm-6b4b91a5519a?source=friends_link&sk=696521bd71a4ff394f3abdf3cf3414f2"><b>Natural Language to SQL Query using an Open Source LLM</b></a></td>
+      <td>Medium</td>
+      <td>May 17, 2024</td>
+    </tr>
+    <tr>
+      <td><a href="https://medium.com/p/47111b8bd035"><img width="80px" src="https://raw.githubusercontent.com/khadkechetan/khadkechetan/main/logo/medium.png"></a></td>
+      <td><a href="https://medium.com/p/47111b8bd035"><b>Information extraction with Mistral 8x7B</b></a></td>
+      <td>Medium</td>
+      <td>Feb 20, 2024</td>
+    </tr>
+    <tr>
+      <td><a href="https://khadkechetan.medium.com/information-extraction-with-zephyr-7b-774e773c9cb2?source=friends_link&sk=471090a057daff6f5385900bfa16a324"><img width="80px" src="https://raw.githubusercontent.com/khadkechetan/khadkechetan/main/logo/medium.png"></a></td>
+      <td><a href="https://khadkechetan.medium.com/information-extraction-with-zephyr-7b-774e773c9cb2?source=friends_link&sk=471090a057daff6f5385900bfa16a324"><b>Information extraction with Zephyr 7B</b></a></td>
+      <td>Medium</td>
+      <td>Nov 27, 2023</td>
+    </tr>
+    <tr>
+      <td><a href="https://khadkechetan.medium.com/information-extraction-with-llm-chetan-kkhadke-cc41674b380?source=friends_link&sk=91a34c8579be7c1a656bf882633dac52"><img width="80px" src="https://raw.githubusercontent.com/khadkechetan/khadkechetan/main/logo/medium.png"></a></td>
+      <td><a href="https://khadkechetan.medium.com/information-extraction-with-llm-chetan-kkhadke-cc41674b380?source=friends_link&sk=91a34c8579be7c1a656bf882633dac52"><b>Information extraction with LLM</b></a></td>
+      <td>Medium</td>
+      <td>Aug 2, 2023</td>
+    </tr>
+    <tr>
+      <td><a href="https://khadkechetan.medium.com/mind-your-words-with-nlp-f352670af765"><img width="80px" src="https://raw.githubusercontent.com/khadkechetan/khadkechetan/main/logo/medium.png"></a></td>
+      <td><a href="https://khadkechetan.medium.com/mind-your-words-with-nlp-f352670af765"><b>Mind Your Words with NLP</b></a></td>
+      <td>Medium</td>
+      <td>May 26, 2023</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.analyticsvidhya.com/blog/2023/04/document-information-extraction-using-pix2struct/"><img width="80px" src="https://raw.githubusercontent.com/khadkechetan/khadkechetan/main/logo/av.png"></a></td>
+      <td><a href="https://www.analyticsvidhya.com/blog/2023/04/document-information-extraction-using-pix2struct/"><b>Document Information Extraction Using Pix2Struct</b></a></td>
+      <td>Analytics Vidhya</td>
+      <td>Apr 26, 2023</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.analyticsvidhya.com/blog/2023/03/revolutionizing-document-processing-through-docvqa/"><img width="80px" src="https://raw.githubusercontent.com/khadkechetan/khadkechetan/main/logo/av.png"></a></td>
+      <td><a href="https://www.analyticsvidhya.com/blog/2023/03/revolutionizing-document-processing-through-docvqa/"><b>Revolutionizing Document Processing through DocVQA</b></a></td>
+      <td>Analytics Vidhya</td>
+      <td>Mar 16, 2023</td>
+    </tr>
+    <tr>
+      <td><a href="https://khadkechetan.medium.com/address-extraction-and-parser-with-nlp-4d3db7b9535d"><img width="80px" src="https://raw.githubusercontent.com/khadkechetan/khadkechetan/main/logo/medium.png"></a></td>
+      <td><a href="https://khadkechetan.medium.com/address-extraction-and-parser-with-nlp-4d3db7b9535d"><b>Address Extraction and Parser with NLP</b></a></td>
+      <td>Medium</td>
+      <td>Feb 1, 2023</td>
+    </tr>
+    <tr>
+      <td><a href="https://chatbotslife.com/information-extraction-with-donut-1a7267ab6993"><img width="80px" src="https://raw.githubusercontent.com/khadkechetan/khadkechetan/main/logo/medium.png"></a></td>
+      <td><a href="https://chatbotslife.com/information-extraction-with-donut-1a7267ab6993"><b>Information Extraction with DONUT</b></a></td>
+      <td>Chatbots Life</td>
+      <td>Aug 29, 2022</td>
+    </tr>
+    <tr>
+      <td><a href="https://medium.com/analytics-vidhya/salesforce-vision-integration-with-salesforce-app-d758369dc37f"><img width="80px" src="https://raw.githubusercontent.com/khadkechetan/khadkechetan/main/logo/medium.png"></a></td>
+      <td><a href="https://medium.com/analytics-vidhya/salesforce-vision-integration-with-salesforce-app-d758369dc37f"><b>Salesforce Vision Integration with Salesforce App</b></a></td>
+      <td>Analytics Vidhya</td>
+      <td>Nov 10, 2020</td>
+    </tr>
+    <tr>
+      <td><a href="https://medium.com/analytics-vidhya/salesforce-vision-3c9c6b9cab31"><img width="80px" src="https://raw.githubusercontent.com/khadkechetan/khadkechetan/main/logo/medium.png"></a></td>
+      <td><a href="https://medium.com/analytics-vidhya/salesforce-vision-3c9c6b9cab31"><b>Salesforce Einstein Vision</b></a></td>
+      <td>Analytics Vidhya</td>
+      <td>Nov 3, 2020</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.persistent.com/blogs/the-dataiku-dss-your-path-to-enterprise-ai/#"><img width="80px" src="https://raw.githubusercontent.com/khadkechetan/khadkechetan/main/logo/psl.jpg"></a></td>
+      <td><a href="https://www.persistent.com/blogs/the-dataiku-dss-your-path-to-enterprise-ai/#"><b>The DataIKU DSS: Your Path to Enterprise AI</b></a></td>
+      <td>Persistent</td>
+      <td>Jan 30, 2020</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
- <tr><td><a href="https://khadkechetan.medium.com/information-extraction-with-llm-chetan-kkhadke-cc41674b380?source=friends_link&sk=91a34c8579be7c1a656bf882633dac52"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
-<td><a href="https://khadkechetan.medium.com/information-extraction-with-llm-chetan-kkhadke-cc41674b380?source=friends_link&sk=91a34c8579be7c1a656bf882633dac52">Information extraction with LLM</a><br/>Aug 2, 2023</td></tr>
- 
- <tr><td><a href="https://khadkechetan.medium.com/mind-your-words-with-nlp-f352670af765"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
-<td><a href="https://khadkechetan.medium.com/mind-your-words-with-nlp-f352670af765">Mind Your Words with NLP</a><br/>May 26, 2023</td></tr>
-<tr><td><a href="https://www.analyticsvidhya.com/blog/2023/04/document-information-extraction-using-pix2struct/"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/av.png"></a></td>
-<td><a href="https://www.analyticsvidhya.com/blog/2023/04/document-information-extraction-using-pix2struct/">Document Information Extraction Using Pix2Struct</a><br/>Apr 26, 2023</td></tr>
-<!-- YOUTUBE:START --><tr><td><a href="https://www.analyticsvidhya.com/blog/2023/03/revolutionizing-document-processing-through-docvqa/"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/av.png"></a></td>
-<td><a href="https://www.analyticsvidhya.com/blog/2023/03/revolutionizing-document-processing-through-docvqa/">Revolutionizing-document-processing-through-docvqa</a><br/>Mar 16, 2023</td></tr>
-<tr><td><a href="https://www.youtube.com/watch?v=WZNG8UomjSI"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
-<td><a href="https://khadkechetan.medium.com/address-extraction-and-parser-with-nlp-4d3db7b9535d">Address Extraction and Parser with NLP</a><br/>FEB 1, 2023</td></tr>
-<tr><td><a href="https://chatbotslife.com/information-extraction-with-donut-1a7267ab6993"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
-<td><a href="https://chatbotslife.com/information-extraction-with-donut-1a7267ab6993">Information Extraction with DONUT</a><br/>Aug 29, 2022</td></tr>
-<tr><td><a href="https://medium.com/analytics-vidhya/salesforce-vision-integration-with-salesforce-app-d758369dc37f"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
-<td><a href="https://medium.com/analytics-vidhya/salesforce-vision-integration-with-salesforce-app-d758369dc37f">Salesforce Vision Integration with Salesforce App</a><br/>Nov 10, 2020</td></tr>
-<tr><td><a href="https://medium.com/analytics-vidhya/salesforce-vision-3c9c6b9cab31"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/medium.png"></a></td>
-<td><a href="https://medium.com/analytics-vidhya/salesforce-vision-3c9c6b9cab31">Salesforce Einstein Vision</a><br/>Nov 3, 2020</td></tr>
-<tr><td><a href="https://www.persistent.com/blogs/the-dataiku-dss-your-path-to-enterprise-ai/#"><img width="140px" src="https://github.com/khadkechetan/khadkechetan/blob/main/logo/psl.jpg"></a></td>
-<td><a href="https://www.persistent.com/blogs/the-dataiku-dss-your-path-to-enterprise-ai/#">The DataIKU DSS: Your Path to Enterprise AI</a><br/>Jan 30, 2020</td></tr>
-<!-- YOUTUBE:END -->
-</tbody>
-  </table>
+---
 
+## 🔬 Research Papers
 
-## :open_book: Research Paper 
-
+<div align="center">
 <table>
-  <tbody>
-<!-- YOUTUBE:START -->
-<tr>
-<td><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2dFX46AAAAAJ&sortby=pubdate&citation_for_view=2dFX46AAAAAJ:f2IySw72cVMC">Knowledge transition: Discovering workflow models from functional tests</a><br/>Nov 2, 2015</td></tr>
-<tr>
-<td><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2dFX46AAAAAJ&sortby=pubdate&citation_for_view=2dFX46AAAAAJ:L8Ckcad2t8MC">Recovering workflows from functional tests</a><br/>May 16, 2015</td></tr>
-<tr>
-<td><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2dFX46AAAAAJ&sortby=pubdate&citation_for_view=2dFX46AAAAAJ:r0BpntZqJG4C">Mining process models and architectural components from test cases</a><br/>Apr 13, 2015</td></tr>
-
-<!-- YOUTUBE:END -->
-</tbody>
-  </table>
-
-
-## 📘 Top GIT projects
-
-<table>
-  <thead align="center">
-    <tr border: none;>
-      <td><b>📘 Project</b></td>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Type</th>
+      <th>Year</th>
+      <th>Link</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/khadkechetan/information_extraction"><b>Information extraction from Document</b></a></td>
+      <td><b>Knowledge transition: Discovering workflow models from functional tests</b></td>
+      <td>Software Engineering Research</td>
+      <td>2015</td>
+      <td><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2dFX46AAAAAJ&sortby=pubdate&citation_for_view=2dFX46AAAAAJ:f2IySw72cVMC">Google Scholar</a></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/khadkechetan/address_parser"><b>Address Parser</b></a></td>
+      <td><b>Recovering workflows from functional tests</b></td>
+      <td>ICSE Workshop</td>
+      <td>2015</td>
+      <td><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2dFX46AAAAAJ&sortby=pubdate&citation_for_view=2dFX46AAAAAJ:L8Ckcad2t8MC">Google Scholar</a></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/khadkechetan/section_extraction"><b>Section extraction from Documents</b></a></td>
+      <td><b>Mining process models and architectural components from test cases</b></td>
+      <td>Software Testing</td>
+      <td>2015</td>
+      <td><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2dFX46AAAAAJ&sortby=pubdate&citation_for_view=2dFX46AAAAAJ:r0BpntZqJG4C">Google Scholar</a></td>
     </tr>
   </tbody>
 </table>
+</div>
 
+---
 
-<p align="left">
-  <a href="https://github.com/khadkechetan?tab=repositories"><img alt="Portfolio" title="Portfolio" src="https://img.shields.io/badge/-More%20Repos-black?style=for-the-badge&logo=addthis&logoColor=white"/></a>
+## 🛠️ Projects
+
+- [Information Extraction from Documents](https://github.com/khadkechetan/information_extraction): ML models for extracting structured data from documents
+- [Address Parser](https://github.com/khadkechetan/address_parser): NLP-powered address parsing and standardization
+- [Section Extraction from Documents](https://github.com/khadkechetan/section_extraction): Automated section identification and extraction
+
+---
+
+## 💻 Tech Stack
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/VS%20Code-0078d4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
+  <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android%20studio&logoColor=white" />
 </p>
 
-<h3 style="color:Navy;align:left">⭐ Stars and claps are appreciated!</h3>
+---
 
+## 🤝 Let's Connect
 
-
-## 👨‍💻 Languages and Tools:
-
-<table>
-    <tbody>
-        <tr>
-            <td><a href="#"><img alt="JavaScript" title="JavaScript" height="28px"
-                        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" /></a>
-            </td>
-            <td><a href="#"><img alt="HTML5" title="HTML5" height="28px"
-                        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" /></a>
-            </td>
-            <td><a href="#"><img alt="CSS3" title="CSS3" height="28px"
-                        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" /></a>
-            </td>
-            <td><a href="#"><img alt="PHP" title="PHP" height="28px"
-                        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png" /></a>
-            </td>
-            <td><a href="#"><img alt="Python" title="Python" height="28px"
-                        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" /></a>
-            </td>
-        </tr>
-        <tr>
-            <td><a href="#"><img alt="C++" title="C++" height="28px"
-                        src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" /></a></td>
-            <td><a href="#"><img alt="C#" title="C#" height="28px"
-                        src="https://img.icons8.com/color/48/000000/c-sharp-logo.png" /></a></td>
-            <td><a href="#"><img alt="Java" title="Java" height="28px"
-                        src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" /></a></td>
-            <td><a href="#"><img alt="Kotlin" title="Kotlin" height="28px"
-                        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kotlin/kotlin.png" /></a>
-            </td>
-            <td><a href="#"><img alt="Flutter" title="Flutter" height="28px"
-                        src="https://img.icons8.com/color/48/000000/flutter.png" /></a></td>
-        </tr>
-        <tr>
-            <td><a href="#"><img alt="Terminal" title="Terminal" height="28px"
-                        src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" /></a>
-            </td>
-            <td><a href="#"><img alt="Visual Studio" title="Visual Studio Code" height="28px"
-                        src="https://img.icons8.com/fluent/48/000000/visual-studio-code-2019.png" /></a></td>
-            <td><a href="#"><img alt="Android Studio" title="Android Studio" height="28px"
-                        src="https://i.imgur.com/6nJGNMN.png" /></a></td>
-            <td><a href="#"><img alt="Heroku" title="Heroku" height="28px"
-                        src="https://img.icons8.com/color/48/000000/heroku.png" /></a></td>
-            <td><a href="https://brave.com/eyl243"><img alt="Brave" title="Brave" height="28px"
-                        src="https://i.imgur.com/UfBWFbP.png" /></a></td>
-        </tr>
-    </tbody>
-</table>
-
-
-
-## 🙋‍♂️ Connect with me:
-
-<p align="left">
-<a href = 'https://www.linkedin.com/in/khadke-chetan/'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/linked-in-alt.svg"/></a>&nbsp;&nbsp;&nbsp;
-<a href = 'https://medium.com/@khadkechetan'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/medium.svg"/>&nbsp;&nbsp;&nbsp;
-<a href = 'https://github.com/khadkechetan'> <img width = '32px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>
+<p align="center">
+<a href = 'https://www.linkedin.com/in/khadke-chetan/' target="_blank"> <img width = '50px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/linked-in-alt.svg"/></a>&nbsp;&nbsp;&nbsp;
+<a href = 'https://medium.com/@khadkechetan' target="_blank"> <img width = '50px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/medium.svg"/></a>&nbsp;&nbsp;&nbsp;
+<a href = 'https://github.com/khadkechetan' target="_blank"> <img width = '50px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>&nbsp;&nbsp;&nbsp;
+<a href = 'https://scholar.google.com/citations?hl=en&user=2dFX46AAAAAJ' target="_blank"> <img width = '50px' align= 'center' src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg"/></a>
 </p>
+
+---
+
+<div align="center">
+  <h3>⭐ Stars and engagement are appreciated!</h3>
+  <p><em>"Innovation is the key to staying ahead in AI/ML"</em></p>
+</div>
