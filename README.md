@@ -5,7 +5,7 @@
 <a href = 'https://medium.com/@khadkechetan' target="_blank"> <img width = '50px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/medium.svg"/></a>
 </p>
 
-<h1 align="center">Chetan Khadke</h1>
+<h1 align="center">Chetankumar Khadke</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/AI%20Innovation-%23FFD700?style=for-the-badge&logo=openai&logoColor=black" />
