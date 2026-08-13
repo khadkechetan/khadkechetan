@@ -112,6 +112,14 @@
     });
   }
 
-  // ---- Footer year ----
-  document.getElementById('year').textContent = new Date().getFullYear();
+  // ---- Scroll progress bar ----
+  var progress = document.getElementById('scrollProgress');
+  if (progress) {
+    var updateProgress = function () {
+      var max = document.documentElement.scrollHeight - window.innerHeight;
+      progress.style.width = (max > 0 ? (window.scrollY / max) * 100 : 0) + '%';
+    };
+    window.addEventListener('scroll', updateProgress, { passive: true });
+    updateProgress();
+  }
 })();
