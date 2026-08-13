@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chetankumar Khadke — Data Science Specialist | NLP · LLM · Agentic AI</title>
+  <meta name="description" content="Chetankumar Khadke — Data Science Specialist with 12+ years of experience in NLP, Large Language Models, Agentic AI and Machine Learning. Based in New Jersey, USA." />
+  <meta name="theme-color" content="#05070f" />
+  <meta property="og:title" content="Chetankumar Khadke — Data Science Specialist" />
+  <meta property="og:description" content="12+ years in NLP, LLMs, Agentic AI and Machine Learning — from POC to production." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://khadkechetan.github.io/khadkechetan/" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div class="aurora" aria-hidden="true">
+    <span class="aurora-blob blob-1"></span>
+    <span class="aurora-blob blob-2"></span>
+    <span class="aurora-blob blob-3"></span>
+  </div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">CK<span class="dot">.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#articles">Articles</a></li>
+        <li><a href="#recognition">Recognition</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <header class="hero" id="home">
+    <canvas id="particleCanvas" aria-hidden="true"></canvas>
+    <div class="hero-content">
+      <div class="hero-avatar">
+        <img src="assets/chetan_khadke.png" alt="Portrait of Chetankumar Khadke" width="480" height="480" />
+      </div>
+      <p class="hero-badge"><span class="pulse-dot" aria-hidden="true"></span> Open to new opportunities</p>
+      <h1 class="hero-name">Chetankumar<br/>Khadke</h1>
+      <p class="hero-typing"><span class="typing-prefix" aria-hidden="true">&gt;_</span> <span id="typingText"></span><span class="caret" aria-hidden="true"></span></p>
+      <p class="hero-tagline">12+ years turning AI research into <span class="accent">production systems</span> — Natural Language Processing, Large Language Models &amp; Agentic AI.</p>
+      <div class="hero-meta">
+        <span class="meta-chip">📍 New Jersey, USA</span>
+        <span class="meta-chip">🧠 NLP · LLM · Agentic AI</span>
+        <span class="meta-chip">📄 4 IEEE Papers</span>
+      </div>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="assets/chetankumar_khadke.pdf" target="_blank" rel="noopener">View Resume <span aria-hidden="true">↗</span></a>
+        <a class="btn btn-outline" href="#contact">Contact Me</a>
+      </div>
+      <div class="hero-social">
+        <a href="https://github.com/khadkechetan" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.15c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.78 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.25 5.67.41.35.77 1.05.77 2.12v3.14c0 .3.21.66.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/khadke-chetan/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.55C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+        </a>
+        <a href="https://medium.com/@khadkechetan" target="_blank" rel="noopener" aria-label="Medium">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.54 12a6.8 6.8 0 0 1-6.77 6.82A6.8 6.8 0 0 1 0 12a6.8 6.8 0 0 1 6.77-6.82A6.8 6.8 0 0 1 13.54 12zm7.42 0c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>
+        </a>
+        <a href="https://scholar.google.com/citations?hl=en&amp;user=2dFX46AAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M5.242 13.769 0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+        </a>
+      </div>
+    </div>
+    <a class="scroll-hint" href="#about" aria-label="Scroll to about section"><span></span></a>
+  </header>
+
+  <main>
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title" data-reveal><span class="section-num">//01</span> About Me</h2>
+        <div class="about-grid">
+          <div class="about-text glass-card" data-reveal>
+            <p>Data Science Specialist with over <strong>12 years of experience</strong>, specializing in <strong>Natural Language Processing (NLP)</strong> and <strong>Machine Learning (ML)</strong> for solving diverse and complex challenges across industries.</p>
+            <p>Hands-on experience driving AI/ML solutions from <strong>Proof of Concept (POC) to production</strong>, translating client requirements into scalable, reliable, and production-ready solutions. Independently developed and deployed multiple POCs showcasing scalable NLP solutions, including integration with cloud platforms (<strong>AWS, GCP</strong>) and containerization for seamless deployment.</p>
+            <p>Proficient in <strong>Python, R, and Java</strong>, with recent experience using modern ML libraries like <strong>Hugging Face Transformers, LLMs, and vision LLMs</strong> to tackle NLP tasks. Published and presented <strong>four research papers</strong> in prominent international conferences.</p>
+          </div>
+          <div class="stats-grid">
+            <div class="stat-card glass-card" data-reveal style="--delay:0ms">
+              <span class="stat-value"><span class="counter" data-target="12">0</span>+</span>
+              <span class="stat-label">Years of Experience</span>
+            </div>
+            <div class="stat-card glass-card" data-reveal style="--delay:100ms">
+              <span class="stat-value"><span class="counter" data-target="4">0</span></span>
+              <span class="stat-label">Research Papers</span>
+            </div>
+            <div class="stat-card glass-card" data-reveal style="--delay:200ms">
+              <span class="stat-value"><span class="counter" data-target="13">0</span></span>
+              <span class="stat-label">Published Articles</span>
+            </div>
+            <div class="stat-card glass-card" data-reveal style="--delay:300ms">
+              <span class="stat-value"><span class="counter" data-target="4">0</span></span>
+              <span class="stat-label">Awards — 3× Bravo · 1× XOR-Champ</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="section-title" data-reveal><span class="section-num">//02</span> Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card glass-card" data-reveal style="--delay:0ms">
+            <div class="skill-head">
+              <span class="icon-tile tile-cyan" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><rect x="6" y="6" width="12" height="12" rx="2"/><rect x="9.5" y="9.5" width="5" height="5" rx="1"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/></svg>
+              </span>
+              <h3>LLM &amp; GenAI</h3>
+            </div>
+            <div class="chips">
+              <span>Llama 3.2</span><span>Gemini 3 Pro &amp; Flash</span><span>AWS Sonnet 5</span><span>Mistral AI</span><span>OpenAI</span><span>Qwen LM</span><span>Llama-cpp</span><span>AI Fine-tuning</span><span>BERT</span>
+            </div>
+          </div>
+          <div class="skill-card glass-card" data-reveal style="--delay:80ms">
+            <div class="skill-head">
+              <span class="icon-tile tile-violet" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M2 12s3.5-6.5 10-6.5S22 12 22 12s-3.5 6.5-10 6.5S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>
+              </span>
+              <h3>Vision &amp; Document AI</h3>
+            </div>
+            <div class="chips">
+              <span>LLaVA</span><span>Qwen 2.5 VL</span><span>LayoutLM</span><span>Donut</span><span>UDOP</span><span>DocVQA</span>
+            </div>
+          </div>
+          <div class="skill-card glass-card" data-reveal style="--delay:160ms">
+            <div class="skill-head">
+              <span class="icon-tile tile-pink" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="5" r="2.4"/><circle cx="5" cy="18" r="2.4"/><circle cx="19" cy="18" r="2.4"/><path d="M12 7.4v4.1M10.8 13.6 6.4 16.2M13.2 13.6l4.4 2.6"/><circle cx="12" cy="12.6" r="1.4"/></svg>
+              </span>
+              <h3>Agentic AI</h3>
+            </div>
+            <div class="chips">
+              <span>AI Agents</span><span>Multi-Agent Systems</span><span>Agent Orchestration</span><span>Planning &amp; Reasoning</span><span>Tool / Function Calling</span><span>Memory Management</span><span>Agentic RAG</span><span>Human-in-the-Loop</span><span>MCP</span><span>A2A Communication</span>
+            </div>
+          </div>
+          <div class="skill-card glass-card" data-reveal style="--delay:240ms">
+            <div class="skill-head">
+              <span class="icon-tile tile-cyan" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-9 8.35 8.5 8.5 0 0 1-3.4-.7L3 21l1.85-5.6A8.38 8.38 0 0 1 12 3.15 8.38 8.38 0 0 1 21 11.5z"/><path d="M8 10h8M8 13.5h5"/></svg>
+              </span>
+              <h3>NLP</h3>
+            </div>
+            <div class="chips">
+              <span>Sentiment Analysis</span><span>Text Mining</span><span>Text Classification &amp; Clustering</span><span>Named Entity Recognition</span><span>Entity Linking</span><span>Topic Modeling</span>
+            </div>
+          </div>
+          <div class="skill-card glass-card" data-reveal style="--delay:320ms">
+            <div class="skill-head">
+              <span class="icon-tile tile-violet" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="M2 12l10 5 10-5"/><path d="M2 17l10 5 10-5"/></svg>
+              </span>
+              <h3>Frameworks &amp; Tools</h3>
+            </div>
+            <div class="chips">
+              <span>LangChain</span><span>Llama-Index</span><span>Hugging Face Transformers</span><span>PyTorch</span><span>MLflow</span><span>Harness</span>
+            </div>
+          </div>
+          <div class="skill-card glass-card" data-reveal style="--delay:400ms">
+            <div class="skill-head">
+              <span class="icon-tile tile-pink" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19a4.5 4.5 0 0 0 .42-8.98 6 6 0 0 0-11.7 1.62A3.5 3.5 0 0 0 6.5 19h11z"/><path d="M9 15.5h6M12 13v5"/></svg>
+              </span>
+              <h3>AWS &amp; Deployment</h3>
+            </div>
+            <div class="chips">
+              <span>ECR</span><span>ECS</span><span>S3</span><span>CloudWatch</span><span>SageMaker</span><span>Inference Endpoints</span><span>AWS Bedrock</span><span>Docker</span><span>Git</span>
+            </div>
+          </div>
+          <div class="skill-card glass-card" data-reveal style="--delay:480ms">
+            <div class="skill-head">
+              <span class="icon-tile tile-cyan" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><ellipse cx="12" cy="5.5" rx="8" ry="3"/><path d="M4 5.5V12c0 1.66 3.58 3 8 3s8-1.34 8-3V5.5"/><path d="M4 12v6.5c0 1.66 3.58 3 8 3s8-1.34 8-3V12"/></svg>
+              </span>
+              <h3>Databases</h3>
+            </div>
+            <div class="chips">
+              <span>MySQL</span><span>MongoDB</span><span>Neo4j</span><span>Elastic Search</span>
+            </div>
+          </div>
+          <div class="skill-card glass-card" data-reveal style="--delay:560ms">
+            <div class="skill-head">
+              <span class="icon-tile tile-violet" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m8 6-6 6 6 6M16 6l6 6-6 6M13.5 4l-3 16"/></svg>
+              </span>
+              <h3>Languages</h3>
+            </div>
+            <div class="chips">
+              <span>Python</span><span>R</span><span>Java</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience">
+      <div class="container">
+        <h2 class="section-title" data-reveal><span class="section-num">//03</span> Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item" data-reveal>
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-card glass-card">
+              <div class="timeline-meta">
+                <span class="badge badge-present">Feb 2025 – Present</span>
+                <span class="timeline-role">Staff Software Engineer</span>
+                <span class="timeline-company">Xpanse · USA</span>
+              </div>
+              <h3>Information Extraction from Documents</h3>
+              <p>Document AI — a highly scalable platform for automated document classification and data extraction. Out of the box it recognizes more than 500 document categories and captures over 500 distinct data elements, with customizable templates to onboard new layouts quickly. The system processes millions of documents each week, extracting not only text but also checkboxes, radio buttons, addresses, and signatures — tightly integrated with a rules engine to drive end-to-end automation across complex document workflows.</p>
+              <ul>
+                <li>Architected, engineered, and fine-tuned prompt libraries with Gemini Pro 3.0, Flash, and AWS Anthropic Sonnet 5, delivering highly precise, context-rich information extraction.</li>
+                <li>Introduced context-aware guardrails that sharply reduce hallucination rates and ensure consistent, trustworthy outputs.</li>
+                <li>Built an automated framework that generates field-specific prompts on demand from document–field mappings, speeding the onboarding of new document types.</li>
+                <li>Embedded the LLM pipeline into the production application, boosting overall extraction accuracy by up to ~30 percent.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item" data-reveal>
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-card glass-card">
+              <div class="timeline-meta">
+                <span class="badge">Aug 2024 – Feb 2025</span>
+                <span class="timeline-role">Software Engineer</span>
+                <span class="timeline-company">Xoriant · USA</span>
+              </div>
+              <h3>Information Extraction and Reconciliation</h3>
+              <p>A solution dedicated to extracting critical information with utmost accuracy from trade documents sourced from various channels — contracts, invoices, bills of lading, and financial statements — performing robust reconciliation across multiple sources and reporting discrepancies in real time to mitigate potential financial losses.</p>
+              <ul>
+                <li>Created and curated prompts leveraging the latest Gemini Pro 1.5 for optimized information extraction, ensuring high precision and relevance.</li>
+                <li>Developed strategies to mitigate hallucination risks by crafting intelligent, context-aware prompts for reliable output.</li>
+                <li>Designed advanced reconciliation status checks using LLMs and sentence-matching algorithms to improve data accuracy and consistency.</li>
+                <li>Conducted defect validation and implemented bug fixes to enhance system stability and performance.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item" data-reveal>
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-card glass-card">
+              <div class="timeline-meta">
+                <span class="badge">May 2021 – July 2024</span>
+                <span class="timeline-role">Technology Specialist</span>
+                <span class="timeline-company">Xoriant · Pune</span>
+              </div>
+              <h3>Information Extraction from Documents (Document AI)</h3>
+              <p>A robust, scalable solution for automatic document type detection and field/entity extraction — classifying over 500 document types and extracting more than 500 unique fields, processing millions of documents weekly with checkbox and radio-button detection, address parsing, and signature recognition.</p>
+              <ul>
+                <li>Spearheaded the development of a Named Entity Recognition (NER) module, leveraging a variety of NER libraries to optimize performance and accuracy.</li>
+                <li>Actively engaged in exploring and setting up client-centric annotation tools, tailoring solutions to specific client requirements.</li>
+                <li>Led the design and training of customized models based on LayoutLM, Donut, and UDOP frameworks, enhancing their efficiency and applicability.</li>
+                <li>Successfully implemented a Donut-based DocVQA and LLM-based approach, demonstrating proficiency in advanced document understanding techniques.</li>
+                <li>Achieved a remarkable 70% improvement in data extraction accuracy through the implementation of innovative, custom-tailored solutions.</li>
+                <li>Managed both the coding and deployment pipelines, ensuring seamless integration and functionality of machine learning models.</li>
+                <li>Expertly deployed machine learning models in containerized environments, employing best practices for scalability and maintenance.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item" data-reveal>
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-card glass-card">
+              <div class="timeline-meta">
+                <span class="badge">Aug 2018 – May 2021</span>
+                <span class="timeline-role">Engineering Lead</span>
+                <span class="timeline-company">Persistent Systems · Pune</span>
+              </div>
+              <h3>Knowledge Graph</h3>
+              <p>Created comprehensive knowledge graphs to establish connections between organizations, individuals, and content from diverse data sources, enabling enhanced data insights and relationship discovery.</p>
+              <ul>
+                <li>Conducted experiments with various Named Entity Recognition (NER) libraries to optimize entity extraction performance.</li>
+                <li>Designed and implemented classification models for advanced relation extraction tasks, enhancing NLP model capabilities.</li>
+                <li>Developed custom NER solutions tailored to project-specific requirements, improving accuracy and relevance in entity recognition.</li>
+                <li>Executed semantic matching algorithms to enhance contextual understanding and similarity assessment within data.</li>
+                <li>Performed Named Entity Linking (NEL) using SpaCy and Wikipedia resources to create robust entity relationships and improve model precision.</li>
+                <li>Managed and optimized database operations with Neo4j, ensuring efficient data retrieval and storage for NLP applications.</li>
+                <li>Deployed machine learning models in containerized environments to streamline scalability and integration within production workflows.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PERSONAL PROJECTS ============ -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title" data-reveal><span class="section-num">//04</span> Personal Projects</h2>
+        <div class="projects-grid">
+          <a class="project-card glass-card" data-reveal data-tilt style="--delay:0ms" href="https://github.com/khadkechetan/information_extraction" target="_blank" rel="noopener">
+            <span class="project-num" aria-hidden="true">P1</span>
+            <span class="icon-tile tile-cyan project-tile" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z"/><path d="M14 2v6h6M9 13h6M9 17h6M9 9h1"/></svg>
+            </span>
+            <h3>Information Extraction from Documents</h3>
+            <p>ML models for extracting structured data from documents.</p>
+            <div class="chips">
+              <span>Machine Learning</span><span>Document AI</span>
+            </div>
+            <span class="project-link">View on GitHub <span aria-hidden="true">→</span></span>
+          </a>
+          <a class="project-card glass-card" data-reveal data-tilt style="--delay:120ms" href="https://github.com/khadkechetan/address_parser" target="_blank" rel="noopener">
+            <span class="project-num" aria-hidden="true">P2</span>
+            <span class="icon-tile tile-violet project-tile" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </span>
+            <h3>Address Parser</h3>
+            <p>NLP-powered address parsing and standardization.</p>
+            <div class="chips">
+              <span>NLP</span><span>Parsing</span>
+            </div>
+            <span class="project-link">View on GitHub <span aria-hidden="true">→</span></span>
+          </a>
+          <a class="project-card glass-card" data-reveal data-tilt style="--delay:240ms" href="https://github.com/khadkechetan/section_extraction" target="_blank" rel="noopener">
+            <span class="project-num" aria-hidden="true">P3</span>
+            <span class="icon-tile tile-pink project-tile" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="4" rx="1"/><rect x="3" y="11" width="11" height="4" rx="1"/><rect x="3" y="18" width="15" height="2.5" rx="1"/></svg>
+            </span>
+            <h3>Section Extraction from Documents</h3>
+            <p>Automated section identification and extraction.</p>
+            <div class="chips">
+              <span>NLP</span><span>Automation</span>
+            </div>
+            <span class="project-link">View on GitHub <span aria-hidden="true">→</span></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ARTICLES & PUBLICATIONS ============ -->
+    <section class="section" id="articles">
+      <div class="container">
+        <h2 class="section-title" data-reveal><span class="section-num">//05</span> Articles &amp; Publications</h2>
+        <div class="pub-legend" data-reveal>
+          <span class="legend-item"><span class="legend-dot dot-article" aria-hidden="true"></span> Article</span>
+          <span class="legend-item"><span class="legend-dot dot-paper" aria-hidden="true"></span> Research Paper</span>
+        </div>
+        <div class="pub-timeline">
+
+          <div class="pub-year" data-reveal><span>2024</span></div>
+          <div class="pub-row" data-reveal>
+            <div class="pub-node node-article" aria-hidden="true"></div>
+            <a class="pub-card glass-card" href="https://khadkechetan.medium.com/information-extraction-with-vision-models-238b347ae8e6" target="_blank" rel="noopener">
+              <div class="pub-tags"><span class="pub-badge platform-medium">Medium</span><span class="pub-date">Nov 30, 2024</span></div>
+              <h3>Information Extraction with Vision Models</h3>
+            </a>
+          </div>
+          <div class="pub-row" data-reveal>
+            <div class="pub-node node-article" aria-hidden="true"></div>
+            <a class="pub-card glass-card" href="https://khadkechetan.medium.com/natural-language-to-sql-query-using-an-open-source-llm-6b4b91a5519a?source=friends_link&amp;sk=696521bd71a4ff394f3abdf3cf3414f2" target="_blank" rel="noopener">
+              <div class="pub-tags"><span class="pub-badge platform-medium">Medium</span><span class="pub-date">May 17, 2024</span></div>
+              <h3>Natural Language to SQL Query using an Open Source LLM</h3>
+            </a>
+          </div>
+          <div class="pub-row" data-reveal>
+            <div class="pub-node node-article" aria-hidden="true"></div>
+            <a class="pub-card glass-card" href="https://medium.com/p/47111b8bd035" target="_blank" rel="noopener">
+              <div class="pub-tags"><span class="pub-badge platform-medium">Medium</span><span class="pub-date">Feb 20, 2024</span></div>
+              <h3>Information Extraction with Mistral 8x7B</h3>
+            </a>
+          </div>
+
+          <div class="pub-year" data-reveal><span>2023</span></div>
+          <div class="pub-row" data-reveal>
+            <div class="pub-node node-article" aria-hidden="true"></div>
+            <a class="pub-card glass-card" href="https://khadkechetan.medium.com/information-extraction-with-zephyr-7b-774e773c9cb2?source=friends_link&amp;sk=471090a057daff6f5385900bfa16a324" target="_blank" rel="noopener">
+              <div class="pub-tags"><span class="pub-badge platform-medium">Medium</span><span class="pub-date">Nov 27, 2023</span></div>
+              <h3>Information Extraction with Zephyr 7B</h3>
+            </a>
+          </div>
+          <div class="pub-row" data-reveal>
+            <div class="pub-node node-article" aria-hidden="true"></div>
+            <a class="pub-card glass-card" href="https://khadkechetan.medium.com/information-extraction-with-llm-chetan-kkhadke-cc41674b380?source=friends_link&amp;sk=91a34c8579be7c1a656bf882633dac52" target="_blank" rel="noopener">
+              <div class="pub-tags"><span class="pub-badge platform-medium">Medium</span><span class="pub-date">Aug 2, 2023</span></div>
+              <h3>Information Extraction with LLM</h3>
+            </a>
+          </div>
+          <div class="pub-row" data-reveal>
+            <div class="pub-node node-article" aria-hidden="true"></div>
+            <a class="pub-card glass-card" href="https://khadkechetan.medium.com/mind-your-words-with-nlp-f352670af765" target="_blank" rel="noopener">
+              <div class="pub-tags"><span class="pub-badge platform-medium">Medium</span><span class="pub-date">May 26, 2023</span></div>
+              <h3>Mind Your Words with NLP</h3>
+            </a>
+          </div>
+          <div class="pub-row" data-reveal>
+            <div class="pub-node node-article" aria-hidden="true"></div>
+            <a class="pub-card glass-card" href="https://www.analyticsvidhya.com/blog/2023/04/document-information-extraction-using-pix2struct/" target="_blank" rel="noopener">
+              <div class="pub-tags"><span class="pub-badge platform-av">Analytics Vidhya</span><span class="pub-date">Apr 26, 2023</span></div>
+              <h3>Document Information Extraction Using Pix2Struct</h3>
+            </a>
+          </div>
+          <div class="pub-row" data-reveal>
+            <div class="pub-node node-article" aria-hidden="true"></div>
+            <a class="pub-card glass-card" href="https://www.analyticsvidhya.com/blog/2023/03/revolutionizing-document-processing-through-docvqa/" target="_blank" rel="noopener">
+              <div class="pub-tags"><span class="pub-badge platform-av">Analytics Vidhya</span><span class="pub-date">Mar 16, 2023</span></div>
+              <h3>Revolutionizing Document Processing through DocVQA</h3>
+            </a>
+          </div>
+          <div class="pub-row" data-reveal>
+            <div class="pub-node node-article" aria-hidden="true"></div>
+            <a class="pub-card glass-card" href="https://khadkechetan.medium.com/address-extraction-and-parser-with-nlp-4d3db7b9535d" target="_blank" rel="noopener">
+              <div class="pub-tags"><span class="pub-badge platform-medium">Medium</span><span class="pub-date">Feb 1, 2023</span></div>
+              <h3>Address Extraction and Parser with NLP</h3>
+            </a>
+          </div>
+
+          <div class="pub-year" data-reveal><span>2022</span></div>
+          <div class="pub-row" data-reveal>
+            <div class="pub-node node-article" aria-hidden="true"></div>
+            <a class="pub-card glass-card" href="https://chatbotslife.com/information-extraction-with-donut-1a7267ab6993" target="_blank" rel="noopener">
+              <div class="pub-tags"><span class="pub-badge platform-cl">Chatbots Life</span><span class="pub-date">Aug 29, 2022</span></div>
+              <h3>Information Extraction with DONUT</h3>
+            </a>
+          </div>
+
+          <div class="pub-year" data-reveal><span>2020</span></div>
+          <div class="pub-row" data-reveal>
+            <div class="pub-node node-article" aria-hidden="true"></div>
+            <a class="pub-card glass-card" href="https://medium.com/analytics-vidhya/salesforce-vision-integration-with-salesforce-app-d758369dc37f" target="_blank" rel="noopener">
+              <div class="pub-tags"><span class="pub-badge platform-av">Analytics Vidhya</span><span class="pub-date">Nov 10, 2020</span></div>
+              <h3>Salesforce Vision Integration with Salesforce App</h3>
+            </a>
+          </div>
+          <div class="pub-row" data-reveal>
+            <div class="pub-node node-article" aria-hidden="true"></div>
+            <a class="pub-card glass-card" href="https://medium.com/analytics-vidhya/salesforce-vision-3c9c6b9cab31" target="_blank" rel="noopener">
+              <div class="pub-tags"><span class="pub-badge platform-av">Analytics Vidhya</span><span class="pub-date">Nov 3, 2020</span></div>
+              <h3>Salesforce Einstein Vision</h3>
+            </a>
+          </div>
+          <div class="pub-row" data-reveal>
+            <div class="pub-node node-article" aria-hidden="true"></div>
+            <a class="pub-card glass-card" href="https://www.persistent.com/blogs/the-dataiku-dss-your-path-to-enterprise-ai/" target="_blank" rel="noopener">
+              <div class="pub-tags"><span class="pub-badge platform-psl">Persistent</span><span class="pub-date">Jan 30, 2020</span></div>
+              <h3>The DataIKU DSS: Your Path to Enterprise AI</h3>
+            </a>
+          </div>
+
+          <div class="pub-year" data-reveal><span>2016</span></div>
+          <div class="pub-row" data-reveal>
+            <div class="pub-node node-paper" aria-hidden="true"></div>
+            <a class="pub-card pub-paper glass-card" href="https://scholar.google.com/citations?hl=en&amp;user=2dFX46AAAAAJ" target="_blank" rel="noopener">
+              <div class="pub-tags"><span class="pub-badge badge-paper">Research Paper</span><span class="pub-date">27–28 Apr 2016</span></div>
+              <h3>Knowledge Acquisition (KnowX) — Tool Demonstration</h3>
+              <p class="pub-venue">11th International Conference on Evaluation of Novel Approaches to Software Engineering (ENASE) · Rome, Italy</p>
+            </a>
+          </div>
+
+          <div class="pub-year" data-reveal><span>2015</span></div>
+          <div class="pub-row" data-reveal>
+            <div class="pub-node node-paper" aria-hidden="true"></div>
+            <a class="pub-card pub-paper glass-card" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2dFX46AAAAAJ&amp;sortby=pubdate&amp;citation_for_view=2dFX46AAAAAJ:f2IySw72cVMC" target="_blank" rel="noopener">
+              <div class="pub-tags"><span class="pub-badge badge-paper">Research Paper</span><span class="pub-date">2–5 Nov 2015</span></div>
+              <h3>Knowledge Transition: Discovering Models from Functional Tests</h3>
+              <p class="pub-venue">26th IEEE International Symposium on Software Reliability Engineering (ISSRE) · Gaithersburg, MD, USA</p>
+            </a>
+          </div>
+          <div class="pub-row" data-reveal>
+            <div class="pub-node node-paper" aria-hidden="true"></div>
+            <a class="pub-card pub-paper glass-card" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2dFX46AAAAAJ&amp;sortby=pubdate&amp;citation_for_view=2dFX46AAAAAJ:r0BpntZqJG4C" target="_blank" rel="noopener">
+              <div class="pub-tags"><span class="pub-badge badge-paper">Research Paper</span><span class="pub-date">13–17 Apr 2015</span></div>
+              <h3>Mining Process Models and Architectural Components from Test Cases</h3>
+              <p class="pub-venue">IEEE Eighth International Conference on Software Testing, Verification and Validation Workshops (ICSTW) · Graz, Austria</p>
+            </a>
+          </div>
+          <div class="pub-row" data-reveal>
+            <div class="pub-node node-paper" aria-hidden="true"></div>
+            <a class="pub-card pub-paper glass-card" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=2dFX46AAAAAJ&amp;sortby=pubdate&amp;citation_for_view=2dFX46AAAAAJ:L8Ckcad2t8MC" target="_blank" rel="noopener">
+              <div class="pub-tags"><span class="pub-badge badge-paper">Research Paper</span><span class="pub-date">2015</span></div>
+              <h3>Recovering Workflows from Functional Tests</h3>
+              <p class="pub-venue">23rd IEEE International Conference on Program Comprehension (ICPC) · Florence, Italy</p>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RECOGNITION ============ -->
+    <section class="section" id="recognition">
+      <div class="container">
+        <h2 class="section-title" data-reveal><span class="section-num">//06</span> Recognition &amp; Education</h2>
+        <div class="recognition-grid">
+          <div class="recognition-block glass-card" data-reveal>
+            <h3 class="subsection-title">🏆 Achievements</h3>
+            <ul class="recognition-list">
+              <li><span class="award-badge">🎤</span> Presented work at the 11th International Conference on Evaluation of Novel Approaches to Software Engineering, 27–28 April 2016, Rome, Italy.</li>
+              <li><span class="award-badge">🥇</span> Bravo Award — received 3 times for excellent work at Persistent Systems.</li>
+              <li><span class="award-badge">🏅</span> XOR-Champ Award — received 1 time for excellent work at Xoriant Solutions.</li>
+            </ul>
+          </div>
+          <div class="recognition-block glass-card" data-reveal style="--delay:120ms">
+            <h3 class="subsection-title">📜 Certifications</h3>
+            <ul class="recognition-list">
+              <li><span class="award-badge">🥈</span> "Machine Learning" — secured silver medal, Indian Institute of Technology – Madras (IIT-M), offered through NPTEL.</li>
+              <li><span class="award-badge">📖</span> "Deep Learning" — Indian Institute of Technology – Madras (IIT-M), offered through NPTEL.</li>
+            </ul>
+          </div>
+          <div class="recognition-block glass-card" data-reveal style="--delay:240ms">
+            <h3 class="subsection-title">🎓 Education</h3>
+            <ul class="recognition-list">
+              <li><span class="award-badge">🎓</span> <strong>Dharmsinh Desai University</strong>, Nadiad, Gujarat — Bachelor of Technology in Computer Science, GPA 8.5/10 (2009–2013).</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section-last" id="contact">
+      <div class="container contact-container">
+        <h2 class="section-title" data-reveal><span class="section-num">//07</span> Get In Touch</h2>
+        <p class="contact-lead" data-reveal>I'm open to new opportunities in AI, NLP, LLMs, and Agentic AI. Let's talk!</p>
+        <div class="contact-actions" data-reveal>
+          <a class="btn btn-primary btn-glow" href="mailto:khadkechetan@gmail.com">✉️ khadkechetan@gmail.com</a>
+          <button class="btn btn-outline" id="copyEmail" type="button">Copy Email</button>
+        </div>
+        <p class="contact-location" data-reveal>📍 New Jersey, USA</p>
+        <div class="contact-links" data-reveal>
+          <a href="https://github.com/khadkechetan" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/khadke-chetan/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://medium.com/@khadkechetan" target="_blank" rel="noopener">Medium</a>
+          <a href="https://scholar.google.com/citations?hl=en&amp;user=2dFX46AAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="assets/chetankumar_khadke.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/particles.js"></script>
+  <script src="js/typing.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
