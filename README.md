@@ -1,34 +1,69 @@
-<a href="#"><img width="100%" height="auto" src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80" alt="AI Neural Network Banner"/></a>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,17,24&text=Chetankumar%20Khadke&fontColor=ffffff&fontSize=48&fontAlignY=35&desc=Data%20Science%20Specialist%20%7C%20NLP%20%7C%20LLM%20%7C%20Agentic%20AI&descSize=18&descAlignY=55&animation=fadeIn" alt="Chetankumar Khadke — Data Science Specialist | NLP | LLM | Agentic AI"/>
 
 <p align="center">
-<a href = 'https://www.linkedin.com/in/khadke-chetan/' target="_blank"> <img width = '50px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/linked-in-alt.svg"/></a>&nbsp;&nbsp;&nbsp;
-<a href = 'https://medium.com/@khadkechetan' target="_blank"> <img width = '50px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/medium.svg"/></a>
-</p>
-
-<h1 align="center">Chetankumar Khadke</h1>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/AI%20Innovation-%23FFD700?style=for-the-badge&logo=openai&logoColor=black" />
-  <img src="https://img.shields.io/badge/LLM%20Expert-%2300BFFF?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/NLP%20Specialist-%23FF69B4?style=for-the-badge&logo=spacy&logoColor=white" />
+  <a href="https://khadkechetan.github.io/khadkechetan/">
+    <img src="https://readme-typing-svg.demolab.com/?font=Space+Grotesk&weight=600&size=24&duration=3000&pause=800&color=22D3EE&center=true&vCenter=true&width=600&lines=Data+Science+Specialist;NLP+%7C+LLM+%7C+Agentic+AI+Engineer;12%2B+Years+of+Experience;POC+%E2%86%92+Production" alt="Data Science Specialist · NLP | LLM | Agentic AI · 12+ Years of Experience"/>
+  </a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Location-New%20Jersey%2C%20USA-green"/>
-  <img src="https://img.shields.io/badge/Focus-AI%20|%20LLM%20|%20AI%20Agent-blue" />
+  <a href="https://khadkechetan.github.io/khadkechetan/">
+    <img src="https://img.shields.io/badge/🚀_View_My_Animated_Portfolio-8A2BE2?style=for-the-badge&logoColor=white" alt="View My Animated Portfolio"/>
+  </a>
+</p>
+
+<p align="center">
+  👉 Portfolio: <a href="https://khadkechetan.github.io/khadkechetan/">khadkechetan.github.io/khadkechetan</a> 👈
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/khadke-chetan/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://medium.com/@khadkechetan"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/></a>
+  <a href="https://scholar.google.com/citations?hl=en&user=2dFX46AAAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar"/></a>
+  <a href="mailto:khadkechetan@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Location-New%20Jersey%2C%20USA-green" alt="Location: New Jersey, USA"/>
+  <img src="https://img.shields.io/badge/Focus-AI%20|%20LLM%20|%20Agentic%20AI-blue" alt="Focus: AI | LLM | Agentic AI"/>
 </p>
 
 ---
 
 ## 🚀 About Me
 
-AI expert with expertise in Natural Language Processing, Large Language Models, Machine Learning, and Deep Learning. Passionate about building intelligent systems and sharing knowledge through research and writing.
+Data Science Specialist with over **12 years of experience**, specializing in **Natural Language Processing (NLP)** and **Machine Learning (ML)** for solving diverse and complex challenges across industries. Currently a **Staff Software Engineer at Xpanse, USA** (Feb 2025 – Present), building Document AI at scale.
 
+- 🔭 Hands-on experience driving AI/ML solutions from **POC to production**
+- 🤖 Deep in **LLMs, vision LLMs & Agentic AI** — Agentic RAG, MCP, Multi-Agent Systems
+- ☁️ Cloud & deployment: **AWS (SageMaker, Bedrock, ECS/ECR), GCP, Docker, MLflow**
+- 📚 Published **4 research papers** at international IEEE conferences
 - 📍 New Jersey, USA
-- 📄 [Resume](https://github.com/khadkechetan/khadkechetan/blob/main/resume/ResumeKhadkeChetan7.pdf)
-- 🔗 [LinkedIn](https://www.linkedin.com/in/khadke-chetan/)
-- ✍️ [Medium](https://medium.com/@khadkechetan)
-- 📚 [Google Scholar](https://scholar.google.com/citations?hl=en&user=2dFX46AAAAAJ)
+- 📄 [Resume](resume/chetankumar_khadke.pdf)
+- 🔗 [LinkedIn](https://www.linkedin.com/in/khadke-chetan/) · ✍️ [Medium](https://medium.com/@khadkechetan) · 📚 [Google Scholar](https://scholar.google.com/citations?hl=en&user=2dFX46AAAAAJ)
+
+---
+
+## 💻 Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,r,java,pytorch,aws,gcp,docker,mysql,mongodb,elasticsearch,git&perline=11" alt="Python, R, Java, PyTorch, AWS, GCP, Docker, MySQL, MongoDB, Elasticsearch, Git"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/LLM-Llama%203.2%20·%20Gemini%203%20Pro%20·%20Sonnet%205%20·%20Mistral-8A2BE2?style=flat-square" alt="LLM: Llama 3.2, Gemini 3 Pro, Sonnet 5, Mistral"/>
+  <img src="https://img.shields.io/badge/Vision%20LLM-LLaVA%20·%20Qwen%202.5%20VL%20·%20LayoutLM%20·%20Donut%20·%20UDOP-00BFFF?style=flat-square" alt="Vision LLM: LLaVA, Qwen 2.5 VL, LayoutLM, Donut, UDOP"/>
+  <img src="https://img.shields.io/badge/Agentic%20AI-RAG%20·%20MCP%20·%20A2A%20·%20Multi--Agent-FF69B4?style=flat-square" alt="Agentic AI: RAG, MCP, A2A, Multi-Agent"/>
+  <img src="https://img.shields.io/badge/Frameworks-LangChain%20·%20Llama--Index%20·%20Hugging%20Face%20·%20MLflow-FFD700?style=flat-square" alt="Frameworks: LangChain, Llama-Index, Hugging Face, MLflow"/>
+</p>
+
+---
+
+## 🛠️ Projects
+
+- [Information Extraction from Documents](https://github.com/khadkechetan/information_extraction): ML models for extracting structured data from documents
+- [Address Parser](https://github.com/khadkechetan/address_parser): NLP-powered address parsing and standardization
+- [Section Extraction from Documents](https://github.com/khadkechetan/section_extraction): Automated section identification and extraction
 
 ---
 
@@ -45,13 +80,12 @@ AI expert with expertise in Natural Language Processing, Large Language Models, 
     </tr>
   </thead>
   <tbody>
-   <tr>
-      <td><a href="https://khadkechetan.medium.com/natural-language-to-sql-query-using-an-open-source-llm-6b4b91a5519a?source=friends_link&sk=696521bd71a4ff394f3abdf3cf3414f2"><img width="80px" src="https://raw.githubusercontent.com/khadkechetan/khadkechetan/main/logo/medium.png"></a></td>
-      <td><a href="https://khadkechetan.medium.com/information-extraction-with-vision-models-238b347ae8e6"><b>NInformation Extraction with Vision Models</b></a></td>
+    <tr>
+      <td><a href="https://khadkechetan.medium.com/information-extraction-with-vision-models-238b347ae8e6"><img width="80px" src="https://raw.githubusercontent.com/khadkechetan/khadkechetan/main/logo/medium.png"></a></td>
+      <td><a href="https://khadkechetan.medium.com/information-extraction-with-vision-models-238b347ae8e6"><b>Information Extraction with Vision Models</b></a></td>
       <td>Medium</td>
       <td>Nov 30, 2024</td>
     </tr>
-    <tr>
     <tr>
       <td><a href="https://khadkechetan.medium.com/natural-language-to-sql-query-using-an-open-source-llm-6b4b91a5519a?source=friends_link&sk=696521bd71a4ff394f3abdf3cf3414f2"><img width="80px" src="https://raw.githubusercontent.com/khadkechetan/khadkechetan/main/logo/medium.png"></a></td>
       <td><a href="https://khadkechetan.medium.com/natural-language-to-sql-query-using-an-open-source-llm-6b4b91a5519a?source=friends_link&sk=696521bd71a4ff394f3abdf3cf3414f2"><b>Natural Language to SQL Query using an Open Source LLM</b></a></td>
@@ -119,8 +153,8 @@ AI expert with expertise in Natural Language Processing, Large Language Models, 
       <td>Nov 3, 2020</td>
     </tr>
     <tr>
-      <td><a href="https://www.persistent.com/blogs/the-dataiku-dss-your-path-to-enterprise-ai/#"><img width="80px" src="https://raw.githubusercontent.com/khadkechetan/khadkechetan/main/logo/psl.jpg"></a></td>
-      <td><a href="https://www.persistent.com/blogs/the-dataiku-dss-your-path-to-enterprise-ai/#"><b>The DataIKU DSS: Your Path to Enterprise AI</b></a></td>
+      <td><a href="https://www.persistent.com/blogs/the-dataiku-dss-your-path-to-enterprise-ai/"><img width="80px" src="https://raw.githubusercontent.com/khadkechetan/khadkechetan/main/logo/psl.jpg"></a></td>
+      <td><a href="https://www.persistent.com/blogs/the-dataiku-dss-your-path-to-enterprise-ai/"><b>The DataIKU DSS: Your Path to Enterprise AI</b></a></td>
       <td>Persistent</td>
       <td>Jan 30, 2020</td>
     </tr>
@@ -137,29 +171,35 @@ AI expert with expertise in Natural Language Processing, Large Language Models, 
   <thead>
     <tr>
       <th>Title</th>
-      <th>Type</th>
+      <th>Venue</th>
       <th>Year</th>
       <th>Link</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><b>Knowledge transition: Discovering workflow models from functional tests</b></td>
-      <td>Software Engineering Research</td>
-      <td>2015</td>
-      <td><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2dFX46AAAAAJ&sortby=pubdate&citation_for_view=2dFX46AAAAAJ:f2IySw72cVMC">Google Scholar</a></td>
-    </tr>
-    <tr>
-      <td><b>Recovering workflows from functional tests</b></td>
-      <td>ICSE Workshop</td>
+      <td><b>Recovering Workflows from Functional Tests</b></td>
+      <td>23rd IEEE ICPC, Florence, Italy</td>
       <td>2015</td>
       <td><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2dFX46AAAAAJ&sortby=pubdate&citation_for_view=2dFX46AAAAAJ:L8Ckcad2t8MC">Google Scholar</a></td>
     </tr>
     <tr>
-      <td><b>Mining process models and architectural components from test cases</b></td>
-      <td>Software Testing</td>
+      <td><b>Mining Process Models and Architectural Components from Test Cases</b></td>
+      <td>IEEE ICSTW, Graz, Austria</td>
       <td>2015</td>
       <td><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2dFX46AAAAAJ&sortby=pubdate&citation_for_view=2dFX46AAAAAJ:r0BpntZqJG4C">Google Scholar</a></td>
+    </tr>
+    <tr>
+      <td><b>Knowledge Transition: Discovering Models from Functional Tests</b></td>
+      <td>26th IEEE ISSRE, Gaithersburg, MD, USA</td>
+      <td>2015</td>
+      <td><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=2dFX46AAAAAJ&sortby=pubdate&citation_for_view=2dFX46AAAAAJ:f2IySw72cVMC">Google Scholar</a></td>
+    </tr>
+    <tr>
+      <td><b>Knowledge Acquisition (KnowX) — Tool Demonstration</b></td>
+      <td>11th ENASE, Rome, Italy</td>
+      <td>2016</td>
+      <td><a href="https://scholar.google.com/citations?hl=en&user=2dFX46AAAAAJ">Google Scholar</a></td>
     </tr>
   </tbody>
 </table>
@@ -167,27 +207,20 @@ AI expert with expertise in Natural Language Processing, Large Language Models, 
 
 ---
 
-## 🛠️ Projects
+## 🏆 Achievements & Certifications
 
-- [Information Extraction from Documents](https://github.com/khadkechetan/information_extraction): ML models for extracting structured data from documents
-- [Address Parser](https://github.com/khadkechetan/address_parser): NLP-powered address parsing and standardization
-- [Section Extraction from Documents](https://github.com/khadkechetan/section_extraction): Automated section identification and extraction
+- 🎤 Presented at the 11th International Conference on Evaluation of Novel Approaches to Software Engineering, 27–28 April 2016, Rome, Italy
+- 🥇 **Bravo Award** — received 3 times for excellent work at Persistent Systems
+- 🏅 **XOR-Champ Award** — received 1 time for excellent work at Xoriant Solutions
+- 🥈 **"Machine Learning"** — secured silver medal, IIT-Madras (NPTEL)
+- 📜 **"Deep Learning"** — IIT-Madras (NPTEL)
 
 ---
 
-## 💻 Tech Stack
+## 📊 GitHub Stats
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS%20Code-0078d4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
-  <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android%20studio&logoColor=white" />
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=khadkechetan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Chetankumar Khadke's GitHub stats"/>
 </p>
 
 ---
@@ -195,15 +228,16 @@ AI expert with expertise in Natural Language Processing, Large Language Models, 
 ## 🤝 Let's Connect
 
 <p align="center">
-<a href = 'https://www.linkedin.com/in/khadke-chetan/' target="_blank"> <img width = '50px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/linked-in-alt.svg"/></a>&nbsp;&nbsp;&nbsp;
-<a href = 'https://medium.com/@khadkechetan' target="_blank"> <img width = '50px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/medium.svg"/></a>&nbsp;&nbsp;&nbsp;
-<a href = 'https://github.com/khadkechetan' target="_blank"> <img width = '50px' align= 'center' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a>&nbsp;&nbsp;&nbsp;
-<a href = 'https://scholar.google.com/citations?hl=en&user=2dFX46AAAAAJ' target="_blank"> <img width = '50px' align= 'center' src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg"/></a>
+  <a href="https://khadkechetan.github.io/khadkechetan/"><img src="https://img.shields.io/badge/🌐_Portfolio-22D3EE?style=for-the-badge" alt="Portfolio"/></a>
+  <a href="https://www.linkedin.com/in/khadke-chetan/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://medium.com/@khadkechetan"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/></a>
+  <a href="https://scholar.google.com/citations?hl=en&user=2dFX46AAAAAJ"><img src="https://img.shields.io/badge/Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar"/></a>
+  <a href="mailto:khadkechetan@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
 ---
 
 <div align="center">
-  <h3>⭐ Stars and engagement are appreciated!</h3>
   <p><em>"Innovation is the key to staying ahead in AI/ML"</em></p>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&customColorList=6,17,24&section=footer" alt=""/>
 </div>
