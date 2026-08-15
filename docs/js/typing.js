@@ -4,9 +4,9 @@
   if (!el) return;
 
   var phrases = [
-    'Data Science Specialist',
-    'NLP & LLM Engineer',
-    'Agentic AI Builder',
+    'Staff Software Engineer',
+    'LLM & Agentic AI',
+    'NLP & Document AI',
     'Staff Software Engineer @ Xpanse'
   ];
 
