@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chetankumar Khadke — Profile &amp; Cover Letter</title>
+  <meta name="description" content="Chetankumar Khadke — Staff Software Engineer with 13 years in NLP, Document AI, Large Language Models and Agentic AI. Cover letter, resume and contact details." />
+  <meta name="robots" content="noindex, follow" />
+  <meta name="theme-color" content="#05070f" />
+
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="Chetankumar Khadke — Staff Software Engineer, LLM &amp; Agentic AI" />
+  <meta property="og:description" content="13 years in NLP, Document AI and production LLM / multi-agent systems. Cover letter, resume and contact details on one page." />
+  <meta property="og:url" content="https://khadkechetan.github.io/khadkechetan/referral/" />
+  <meta property="og:image" content="https://khadkechetan.github.io/khadkechetan/assets/chetan_khadke.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Chetankumar Khadke — Staff Software Engineer, LLM &amp; Agentic AI" />
+  <meta name="twitter:description" content="13 years in NLP, Document AI and production LLM / multi-agent systems." />
+  <meta name="twitter:image" content="https://khadkechetan.github.io/khadkechetan/assets/chetan_khadke.png" />
+
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --bg: #05070f;
+      --surface: rgba(15, 23, 42, 0.55);
+      --border: rgba(148, 163, 184, 0.14);
+      --text: #e8eef8;
+      --text-dim: #94a3b8;
+      --cyan: #22d3ee;
+      --violet: #8b5cf6;
+      --pink: #ec4899;
+      --gradient: linear-gradient(100deg, var(--cyan), var(--violet), var(--pink));
+      --font-display: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+      --font-body: "Inter", "Segoe UI", system-ui, sans-serif;
+      --font-mono: "JetBrains Mono", "SF Mono", Menlo, monospace;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-body);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3 { font-family: var(--font-display); line-height: 1.2; }
+    a { color: var(--cyan); text-decoration: none; }
+    a:focus-visible, button:focus-visible {
+      outline: 2px solid var(--cyan);
+      outline-offset: 3px;
+      border-radius: 6px;
+    }
+    ::selection { background: rgba(139, 92, 246, 0.45); color: #fff; }
+
+    /* ---------- Ambient background ---------- */
+    .aurora { position: fixed; inset: 0; z-index: -2; overflow: hidden; pointer-events: none; }
+    .aurora-blob {
+      position: absolute; width: 55vmax; height: 55vmax;
+      border-radius: 50%; filter: blur(110px); opacity: 0.16;
+    }
+    .blob-1 { top: -25%; left: -12%; background: var(--cyan); animation: drift1 26s ease-in-out infinite alternate; }
+    .blob-2 { top: 25%; right: -22%; background: var(--violet); animation: drift2 32s ease-in-out infinite alternate; }
+    .blob-3 { bottom: -30%; left: 18%; background: var(--pink); opacity: 0.1; animation: drift3 38s ease-in-out infinite alternate; }
+    @keyframes drift1 { to { transform: translate(14vw, 10vh) scale(1.15); } }
+    @keyframes drift2 { to { transform: translate(-12vw, 8vh) scale(1.1); } }
+    @keyframes drift3 { to { transform: translate(10vw, -12vh) scale(1.2); } }
+
+    .grid-overlay {
+      position: fixed; inset: 0; z-index: -1; pointer-events: none;
+      background-image:
+        linear-gradient(rgba(148, 163, 184, 0.045) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(148, 163, 184, 0.045) 1px, transparent 1px);
+      background-size: 54px 54px;
+      -webkit-mask-image: radial-gradient(ellipse 90% 70% at 50% 25%, #000 30%, transparent 100%);
+      mask-image: radial-gradient(ellipse 90% 70% at 50% 25%, #000 30%, transparent 100%);
+    }
+
+    /* ---------- Layout ---------- */
+    .page { max-width: 860px; margin: 0 auto; padding: 56px 22px 72px; }
+
+    .glass {
+      background: linear-gradient(var(--surface), var(--surface)) padding-box,
+                  linear-gradient(140deg, rgba(34, 211, 238, 0.28), rgba(148, 163, 184, 0.08) 40%, rgba(139, 92, 246, 0.28)) border-box;
+      border: 1px solid transparent;
+      border-radius: 18px;
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+    }
+
+    /* ---------- Header ---------- */
+    .masthead { text-align: center; }
+
+    .avatar {
+      position: relative;
+      width: 148px; height: 148px;
+      margin: 0 auto 30px;
+      border-radius: 50%;
+      padding: 4px;
+      background: var(--gradient);
+      background-size: 220% 220%;
+      box-shadow: 0 0 44px rgba(139, 92, 246, 0.42);
+      animation: gradientShift 6s ease infinite;
+    }
+    .avatar::before {
+      content: "";
+      position: absolute; inset: -12px;
+      border-radius: 50%;
+      border: 1px dashed rgba(34, 211, 238, 0.35);
+      animation: spinSlow 24s linear infinite;
+    }
+    .avatar img {
+      display: block; width: 100%; height: 100%;
+      border-radius: 50%; object-fit: cover; object-position: top;
+      border: 3px solid var(--bg);
+    }
+    @keyframes gradientShift { 0%,100% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } }
+    @keyframes spinSlow { to { transform: rotate(360deg); } }
+
+    .name {
+      font-size: clamp(2.1rem, 6vw, 3.3rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      background: var(--gradient);
+      background-size: 220% 220%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: gradientShift 7s ease infinite;
+    }
+    .role {
+      font-family: var(--font-mono);
+      font-size: clamp(0.82rem, 2.4vw, 0.98rem);
+      color: var(--cyan);
+      letter-spacing: 0.04em;
+      margin-top: 10px;
+    }
+    .locale { color: var(--text-dim); font-size: 0.95rem; margin-top: 6px; }
+
+    /* ---------- Contact ---------- */
+    .contact {
+      display: flex; flex-wrap: wrap; justify-content: center; gap: 12px;
+      margin-top: 30px;
+    }
+    .contact-item {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 8px 8px 8px 16px;
+      font-size: 0.93rem;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    .contact-item a { color: var(--text); font-weight: 500; }
+    .contact-item a:hover { color: var(--cyan); }
+    .contact-item svg { width: 15px; height: 15px; flex: none; color: var(--cyan); }
+
+    .copy-btn {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 28px; height: 28px;
+      border: 1px solid var(--border);
+      border-radius: 50%;
+      background: rgba(148, 163, 184, 0.08);
+      color: var(--text-dim);
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s, border-color 0.2s;
+    }
+    .copy-btn:hover { background: rgba(34, 211, 238, 0.16); color: var(--cyan); border-color: rgba(34, 211, 238, 0.4); }
+    .copy-btn svg { width: 13px; height: 13px; }
+    .copy-btn.copied { background: rgba(52, 211, 153, 0.2); color: #34d399; border-color: rgba(52, 211, 153, 0.45); }
+
+    /* ---------- Sections ---------- */
+    section { margin-top: 46px; }
+    .card { padding: 30px 32px; }
+
+    .section-title {
+      display: flex; align-items: center; gap: 12px;
+      font-size: 0.78rem;
+      font-family: var(--font-mono);
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-dim);
+      margin-bottom: 20px;
+    }
+    .section-title::after {
+      content: ""; flex: 1; height: 1px;
+      background: linear-gradient(90deg, rgba(148, 163, 184, 0.3), transparent);
+    }
+
+    .letter p { margin-bottom: 16px; color: #cfd9e8; }
+    .letter p:last-child { margin-bottom: 0; }
+    .letter strong { color: var(--text); font-weight: 600; }
+    .signoff {
+      margin-top: 24px; padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--text-dim); font-size: 0.94rem;
+    }
+    .signoff b { display: block; font-family: var(--font-display); font-size: 1.15rem; color: var(--text); margin-top: 4px; }
+
+    .summary { color: #cfd9e8; }
+
+    /* ---------- Stats ---------- */
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 14px;
+      margin-top: 46px;
+    }
+    .stat { padding: 20px 16px; text-align: center; }
+    .stat-num {
+      font-family: var(--font-display);
+      font-size: 1.85rem; font-weight: 700;
+      background: var(--gradient);
+      background-size: 220% 220%;
+      -webkit-background-clip: text; background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: gradientShift 7s ease infinite;
+    }
+    .stat-label {
+      font-size: 0.76rem; color: var(--text-dim);
+      text-transform: uppercase; letter-spacing: 0.1em;
+      margin-top: 4px;
+    }
+
+    /* ---------- Focus chips ---------- */
+    .chips { display: flex; flex-wrap: wrap; gap: 9px; }
+    .chip {
+      font-size: 0.84rem;
+      font-family: var(--font-mono);
+      color: #b9c6da;
+      background: rgba(139, 92, 246, 0.1);
+      border: 1px solid rgba(139, 92, 246, 0.26);
+      border-radius: 999px;
+      padding: 5px 13px;
+    }
+
+    /* ---------- Links ---------- */
+    .links { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 13px; }
+    .link {
+      display: flex; align-items: center; gap: 13px;
+      padding: 15px 18px;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      background: rgba(15, 23, 42, 0.5);
+      color: var(--text);
+      transition: transform 0.22s ease, border-color 0.22s ease, background 0.22s ease;
+    }
+    .link:hover {
+      transform: translateY(-3px);
+      border-color: rgba(34, 211, 238, 0.45);
+      background: rgba(34, 211, 238, 0.07);
+    }
+    .link svg.ico { width: 20px; height: 20px; flex: none; color: var(--cyan); }
+    .link-text { display: flex; flex-direction: column; line-height: 1.35; min-width: 0; }
+    .link-text b { font-size: 0.95rem; font-weight: 600; }
+    .link-text span { font-size: 0.78rem; color: var(--text-dim); }
+    .link .arrow { margin-left: auto; color: var(--text-dim); font-size: 0.9rem; }
+
+    .link-primary {
+      border-color: rgba(34, 211, 238, 0.4);
+      background: linear-gradient(120deg, rgba(34, 211, 238, 0.14), rgba(139, 92, 246, 0.14));
+    }
+
+    /* ---------- Copy-all ---------- */
+    .copy-all-wrap { text-align: center; margin-top: 30px; }
+    .copy-all {
+      display: inline-flex; align-items: center; gap: 10px;
+      font-family: var(--font-body); font-size: 0.92rem; font-weight: 500;
+      color: var(--text-dim);
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px dashed rgba(148, 163, 184, 0.3);
+      border-radius: 999px;
+      padding: 10px 22px;
+      cursor: pointer;
+      transition: color 0.2s, border-color 0.2s, background 0.2s;
+    }
+    .copy-all:hover { color: var(--cyan); border-color: rgba(34, 211, 238, 0.5); background: rgba(34, 211, 238, 0.08); }
+    .copy-all.copied { color: #34d399; border-color: rgba(52, 211, 153, 0.5); border-style: solid; }
+    .copy-all svg { width: 15px; height: 15px; }
+
+    footer {
+      margin-top: 54px; text-align: center;
+      color: var(--text-dim); font-size: 0.85rem;
+    }
+
+    @media (max-width: 600px) {
+      .page { padding: 40px 16px 56px; }
+      .card { padding: 24px 20px; }
+      .contact { gap: 9px; }
+      .contact-item { font-size: 0.87rem; padding: 7px 7px 7px 13px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+    }
+
+    /* ---------- Print: clean one-page cover letter ---------- */
+    @media print {
+      .aurora, .grid-overlay, .copy-btn, .copy-all-wrap, .no-print { display: none !important; }
+      body { background: #fff; color: #1a1a1a; font-size: 10.5pt; line-height: 1.5; }
+      .page { max-width: 100%; padding: 0; }
+      .glass, .card, .link, .stat {
+        background: none !important;
+        border: none !important;
+        backdrop-filter: none !important;
+        border-radius: 0;
+        padding: 0;
+      }
+      section { margin-top: 16pt; page-break-inside: avoid; }
+      .card { padding: 0; }
+      .avatar { width: 92px; height: 92px; margin-bottom: 14px; box-shadow: none; background: #1f3864; }
+      .avatar::before { display: none; }
+      .avatar img { border-color: #fff; }
+      .name, .stat-num {
+        -webkit-text-fill-color: #1f3864 !important;
+        color: #1f3864 !important;
+        background: none !important;
+      }
+      .role { color: #444; }
+      .letter p, .summary { color: #1a1a1a; }
+      .section-title { color: #1f3864; margin-bottom: 8pt; }
+      .section-title::after { background: #ccc; }
+      .contact-item { border: none; background: none; padding: 0 8px; }
+      .contact-item a, .link, .link-text b { color: #1a1a1a; }
+      .link-text span, .chip { color: #444; }
+      .chip { border: none; background: none; padding: 0; }
+      .chips { gap: 0; }
+      .chip:not(:last-child)::after { content: " · "; }
+      .links { display: block; }
+      .link { display: inline; }
+      .link svg.ico, .link .arrow { display: none; }
+      .link-text { display: inline; }
+      .link-text b::after { content: " — "; }
+      .stats { display: none; }
+      footer { display: none; }
+      a[href^="http"]::after { content: ""; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="aurora" aria-hidden="true">
+    <span class="aurora-blob blob-1"></span>
+    <span class="aurora-blob blob-2"></span>
+    <span class="aurora-blob blob-3"></span>
+  </div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <main class="page">
+
+    <!-- ============ MASTHEAD ============ -->
+    <header class="masthead">
+      <div class="avatar">
+        <img src="../assets/chetan_khadke.png" alt="Portrait of Chetankumar Khadke" width="296" height="296" />
+      </div>
+      <h1 class="name">Chetankumar Khadke</h1>
+      <p class="role">Staff Software Engineer &nbsp;·&nbsp; LLM &amp; Agentic AI</p>
+      <p class="locale">New Jersey, USA</p>
+
+      <div class="contact">
+        <span class="contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <a href="tel:+18483482810">+1 848-348-2810</a>
+          <button class="copy-btn" data-copy="+1 848-348-2810" aria-label="Copy phone number">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </span>
+
+        <span class="contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          <a href="mailto:khadkechetan@gmail.com">khadkechetan@gmail.com</a>
+          <button class="copy-btn" data-copy="khadkechetan@gmail.com" aria-label="Copy email address">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          </button>
+        </span>
+      </div>
+    </header>
+
+    <!-- ============ COVER LETTER ============ -->
+    <section>
+      <div class="glass card">
+        <h2 class="section-title">Cover Letter</h2>
+        <div class="letter">
+          <p>Hello,</p>
+          <p>I am a <strong>Staff Software Engineer with 13 years of experience</strong> in natural language processing and document intelligence, spanning classical machine learning, transformer-based document models, and production large language model and agentic systems. My focus throughout has been the same: taking AI out of the research notebook and into systems that run reliably, at scale, on real business data.</p>
+          <p>At <strong>Xpanse</strong>, I lead LLM and multi-agent integration for a Document AI platform that classifies and extracts data across <strong>500+ document types and 500+ data fields, processing millions of documents each week</strong>. I built the multi-agent orchestration layer that coordinates classification, extraction, and validation agents through tool and function calling, added Model Context Protocol integrations so new capabilities plug in through a standard interface, and introduced context-aware guardrails that cut hallucination rates on business-critical fields. Before this, at <strong>Xoriant</strong>, I designed and trained the custom LayoutLM, Donut, and UDOP models behind an enterprise Document AI platform, improving extraction accuracy by 70%.</p>
+          <p>Earlier in my career I led knowledge-graph and conversational AI engineering at <strong>Persistent Systems</strong>, and began in NLP and ML research at <strong>Tata Consultancy Services</strong>, where my work on mining process models from software test artifacts was published as <strong>four peer-reviewed IEEE papers</strong>. I hold Machine Learning (Silver Medal) and Deep Learning certifications from IIT Madras.</p>
+          <p>I am interested in senior and staff-level engineering roles in <strong>Applied AI, Machine Learning, and LLM / Agentic systems</strong>. My resume, portfolio, and published work are linked below, and I am happy to answer any questions or provide additional detail.</p>
+          <p>Thank you for your time and consideration.</p>
+          <div class="signoff">
+            Sincerely,
+            <b>Chetankumar Khadke</b>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SUMMARY ============ -->
+    <section>
+      <div class="glass card">
+        <h2 class="section-title">Professional Summary</h2>
+        <p class="summary">Staff Software Engineer with 13 years in natural language processing and document intelligence, spanning classical ML, transformer-based document models, and production LLM and agentic systems. Began in NLP and ML research at Tata Consultancy Services, mining process models from software test artifacts and building text analytics for the ignio cognitive automation platform, work published as four peer-reviewed IEEE papers. As Engineering Lead at Persistent Systems, built knowledge graphs on Neo4j with custom NER, relation extraction, and entity linking, alongside an intent-classification engine for conversational AI. At Xoriant, designed and trained the custom LayoutLM, Donut, and UDOP models behind an enterprise Document AI platform, improving extraction accuracy by 70%. Now at Xpanse, leading LLM and multi-agent integration (tool calling, Model Context Protocol, and context-aware guardrails) across 500+ document types and millions of documents weekly, for a further ~30% accuracy gain. Certified in Machine Learning (Silver Medal) and Deep Learning by IIT Madras.</p>
+      </div>
+    </section>
+
+    <!-- ============ STATS ============ -->
+    <section class="no-print">
+      <div class="stats">
+        <div class="glass stat"><div class="stat-num">13</div><div class="stat-label">Years Experience</div></div>
+        <div class="glass stat"><div class="stat-num">4</div><div class="stat-label">IEEE Papers</div></div>
+        <div class="glass stat"><div class="stat-num">500+</div><div class="stat-label">Document Types</div></div>
+        <div class="glass stat"><div class="stat-num">Millions</div><div class="stat-label">Docs / Week</div></div>
+      </div>
+    </section>
+
+    <!-- ============ FOCUS ============ -->
+    <section>
+      <div class="glass card">
+        <h2 class="section-title">Core Focus</h2>
+        <div class="chips">
+          <span class="chip">Large Language Models</span>
+          <span class="chip">Agentic AI &amp; Multi-Agent Systems</span>
+          <span class="chip">Model Context Protocol (MCP)</span>
+          <span class="chip">Tool / Function Calling</span>
+          <span class="chip">RAG &amp; Guardrails</span>
+          <span class="chip">Document AI</span>
+          <span class="chip">LayoutLM · Donut · UDOP</span>
+          <span class="chip">NLP &amp; NER</span>
+          <span class="chip">Knowledge Graphs</span>
+          <span class="chip">AWS SageMaker &amp; Bedrock</span>
+          <span class="chip">MLOps</span>
+          <span class="chip">Python</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LINKS ============ -->
+    <section>
+      <div class="glass card">
+        <h2 class="section-title">Resume &amp; Profiles</h2>
+        <div class="links">
+
+          <a class="link link-primary" href="../assets/ChetanKhadke_Resume_2026.pdf" target="_blank" rel="noopener">
+            <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 15h6"/><path d="M9 11h2"/></svg>
+            <span class="link-text"><b>Resume</b><span>PDF · 2 pages</span></span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a class="link link-primary" href="../" target="_blank" rel="noopener">
+            <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            <span class="link-text"><b>Portfolio</b><span>khadkechetan.github.io</span></span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a class="link" href="https://www.linkedin.com/in/khadke-chetan/" target="_blank" rel="noopener">
+            <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.55C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+            <span class="link-text"><b>LinkedIn</b><span>in/khadke-chetan</span></span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a class="link" href="https://github.com/khadkechetan" target="_blank" rel="noopener">
+            <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.15c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.78 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.25 5.67.41.35.77 1.05.77 2.12v3.14c0 .3.21.66.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+            <span class="link-text"><b>GitHub</b><span>github.com/khadkechetan</span></span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a class="link" href="https://medium.com/@khadkechetan" target="_blank" rel="noopener">
+            <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.54 12a6.8 6.8 0 0 1-6.77 6.82A6.8 6.8 0 0 1 0 12a6.8 6.8 0 0 1 6.77-6.82A6.8 6.8 0 0 1 13.54 12zm7.42 0c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>
+            <span class="link-text"><b>Medium</b><span>Technical writing</span></span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a class="link" href="https://scholar.google.com/citations?hl=en&amp;user=2dFX46AAAAAJ" target="_blank" rel="noopener">
+            <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5.242 13.769 0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+            <span class="link-text"><b>Google Scholar</b><span>4 IEEE publications</span></span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="copy-all-wrap no-print">
+      <button class="copy-all" id="copyAll">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+        <span>Copy all my details for a referral form</span>
+      </button>
+    </div>
+
+    <footer>
+      <p>Chetankumar Khadke &nbsp;·&nbsp; New Jersey, USA &nbsp;·&nbsp; <a href="mailto:khadkechetan@gmail.com">khadkechetan@gmail.com</a></p>
+    </footer>
+
+  </main>
+
+  <script>
+    (function () {
+      var DETAILS = [
+        "Name: Chetankumar Khadke",
+        "Title: Staff Software Engineer - LLM & Agentic AI",
+        "Location: New Jersey, USA",
+        "Phone: +1 848-348-2810",
+        "Email: khadkechetan@gmail.com",
+        "LinkedIn: https://www.linkedin.com/in/khadke-chetan/",
+        "Portfolio: https://khadkechetan.github.io/khadkechetan/",
+        "Resume: https://khadkechetan.github.io/khadkechetan/assets/ChetanKhadke_Resume_2026.pdf",
+        "GitHub: https://github.com/khadkechetan",
+        "Medium: https://medium.com/@khadkechetan"
+      ].join("\n");
+
+      function copyText(text) {
+        if (navigator.clipboard && window.isSecureContext) {
+          return navigator.clipboard.writeText(text);
+        }
+        return new Promise(function (resolve, reject) {
+          var ta = document.createElement("textarea");
+          ta.value = text;
+          ta.style.position = "fixed";
+          ta.style.opacity = "0";
+          document.body.appendChild(ta);
+          ta.select();
+          try { document.execCommand("copy"); resolve(); }
+          catch (e) { reject(e); }
+          finally { document.body.removeChild(ta); }
+        });
+      }
+
+      function flash(el, okClass, done) {
+        el.classList.add(okClass);
+        setTimeout(function () { el.classList.remove(okClass); if (done) done(); }, 1600);
+      }
+
+      document.querySelectorAll(".copy-btn").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          copyText(btn.getAttribute("data-copy")).then(function () {
+            flash(btn, "copied");
+          });
+        });
+      });
+
+      var all = document.getElementById("copyAll");
+      var allLabel = all.querySelector("span");
+      var original = allLabel.textContent;
+      all.addEventListener("click", function () {
+        copyText(DETAILS).then(function () {
+          allLabel.textContent = "Copied to clipboard";
+          flash(all, "copied", function () { allLabel.textContent = original; });
+        });
+      });
+    })();
+  </script>
+
+</body>
+</html>
