@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://khadkechetan.github.io/khadkechetan/">
-    <img src="https://readme-typing-svg.demolab.com/?font=Space+Grotesk&weight=600&size=24&duration=3000&pause=800&color=22D3EE&center=true&vCenter=true&width=600&lines=Data+Science+Specialist;NLP+%7C+LLM+%7C+Agentic+AI+Engineer;12%2B+Years+of+Experience;POC+%E2%86%92+Production" alt="Data Science Specialist · NLP | LLM | Agentic AI · 12+ Years of Experience"/>
+    <img src="https://readme-typing-svg.demolab.com/?font=Space+Grotesk&weight=600&size=24&duration=3000&pause=800&color=22D3EE&center=true&vCenter=true&width=600&lines=Data+Science+Specialist;NLP+%7C+LLM+%7C+Agentic+AI+Engineer;13%2B+Years+of+Experience;POC+%E2%86%92+Production" alt="Data Science Specialist · NLP | LLM | Agentic AI · 13+ Years of Experience"/>
   </a>
 </p>
 
@@ -32,10 +32,11 @@
 
 ## 🚀 About Me
 
-Data Science Specialist with over **12 years of experience**, specializing in **Natural Language Processing (NLP)** and **Machine Learning (ML)** for solving diverse and complex challenges across industries. Currently a **Staff Software Engineer at Xpanse, USA** (Feb 2025 – Present), building Document AI at scale.
+Data Science Specialist with over **13 years of experience**, specializing in **Natural Language Processing (NLP)** and **Machine Learning (ML)** for solving diverse and complex challenges across industries. Currently a **Staff Software Engineer at Xpanse, USA** (Feb 2025 – Present), building Document AI at scale.
 
 - 🔭 Hands-on experience driving AI/ML solutions from **POC to production**
-- 🤖 Deep in **LLMs, vision LLMs & Agentic AI** — Agentic RAG, MCP, Multi-Agent Systems
+- 🤖 Deep in **LLMs, vision LLMs & Agentic AI** — Multi-Agent Systems built and deployed on **LangGraph**, Agentic RAG, MCP, tool/function calling
+- 🧠 Well versed with the **AWS agentic stack** — **Bedrock AgentCore**, **AgentCore Runtime**, and the **Strands Agents SDK**
 - ☁️ Cloud & deployment: **AWS (SageMaker, Bedrock, ECS/ECR), GCP, Docker, MLflow**
 - 📚 Published **4 research papers** at international IEEE conferences
 - 📍 New Jersey, USA
@@ -53,8 +54,9 @@ Data Science Specialist with over **12 years of experience**, specializing in **
 <p align="center">
   <img src="https://img.shields.io/badge/LLM-Llama%203.2%20·%20Gemini%203%20Pro%20·%20Sonnet%205%20·%20Mistral-8A2BE2?style=flat-square" alt="LLM: Llama 3.2, Gemini 3 Pro, Sonnet 5, Mistral"/>
   <img src="https://img.shields.io/badge/Vision%20LLM-LLaVA%20·%20Qwen%202.5%20VL%20·%20LayoutLM%20·%20Donut%20·%20UDOP-00BFFF?style=flat-square" alt="Vision LLM: LLaVA, Qwen 2.5 VL, LayoutLM, Donut, UDOP"/>
-  <img src="https://img.shields.io/badge/Agentic%20AI-RAG%20·%20MCP%20·%20A2A%20·%20Multi--Agent-FF69B4?style=flat-square" alt="Agentic AI: RAG, MCP, A2A, Multi-Agent"/>
-  <img src="https://img.shields.io/badge/Frameworks-LangChain%20·%20Llama--Index%20·%20Hugging%20Face%20·%20MLflow-FFD700?style=flat-square" alt="Frameworks: LangChain, Llama-Index, Hugging Face, MLflow"/>
+  <img src="https://img.shields.io/badge/Agentic%20AI-LangGraph%20·%20RAG%20·%20MCP%20·%20A2A%20·%20Multi--Agent-FF69B4?style=flat-square" alt="Agentic AI: LangGraph, RAG, MCP, A2A, Multi-Agent"/>
+  <img src="https://img.shields.io/badge/Frameworks-LangChain%20·%20LangGraph%20·%20Llama--Index%20·%20Hugging%20Face%20·%20MLflow-FFD700?style=flat-square" alt="Frameworks: LangChain, LangGraph, Llama-Index, Hugging Face, MLflow"/>
+  <img src="https://img.shields.io/badge/AWS%20Agentic-Bedrock%20AgentCore%20·%20AgentCore%20Runtime%20·%20Strands-FF9900?style=flat-square" alt="AWS Agentic: Bedrock AgentCore, AgentCore Runtime, Strands Agents SDK"/>
 </p>
 
 ---
