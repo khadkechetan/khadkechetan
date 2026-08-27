@@ -1,0 +1,144 @@
+<mxfile host="65bd71144e">
+    <diagram id="lowLevelDesign" name="1 - Low-Level Internal Design">
+        <mxGraphModel dx="1420" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1830" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="t1" value="Document Intelligence Platform - Low-Level Design (Internal Implementation)" style="text;html=1;align=left;verticalAlign=middle;fontSize=20;fontStyle=1;fontColor=#232F3E;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="20" width="1400" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="s1" value="&lt;b&gt;1. SQS Ingestion &amp; Worker Pool&lt;/b&gt;&lt;br&gt;• boto3 receive_message(); long-poll WaitTimeSeconds=20&lt;br&gt;• MaxNumberOfMessages=10 per batch&lt;br&gt;• Async worker pool (asyncio / ThreadPoolExecutor, N=4-8 per task)&lt;br&gt;• Deserialize -&gt; Pydantic DocumentTask model&lt;br&gt;• Fetch raw file from S3 (get_object)&lt;br&gt;• Heartbeat extends SQS visibility timeout while processing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#1565C0;strokeWidth=2;fontSize=10;fontColor=#1565C0;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;spacingRight=8;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="160" width="360" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="s2" value="&lt;b&gt;2. Classification Engine&lt;/b&gt;&lt;br&gt;• Loads Taxonomy Registry at startup, cached in-memory&lt;br&gt;• Prompt = system instructions + taxonomy + doc content&lt;br&gt;• Calls Gemini (google-generativeai SDK), JSON mode, temp=0&lt;br&gt;• Parses -&gt; ClassificationResult{doc_type, category_path, model_confidence}&lt;br&gt;• Pydantic validation; up to 2 corrective re-prompts on bad JSON&lt;br&gt;• Every Gemini call routed through shared Resilience Layer below" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#ED7100;strokeWidth=2;fontSize=10;fontColor=#ED7100;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;spacingRight=8;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="160" width="360" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="s3" value="&lt;b&gt;3. Extraction Engine&lt;/b&gt;&lt;br&gt;• Selects field schema for doc_type from Schema Registry&lt;br&gt;• Prompt = few-shot examples + JSON Schema (function calling)&lt;br&gt;• Calls Gemini via Resilience Layer -&gt; structured JSON output&lt;br&gt;• Parses -&gt; ExtractionResult{fields, field_confidences}&lt;br&gt;• Per-field format validators (regex / date / currency) run pre-scoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#ED7100;strokeWidth=2;fontSize=10;fontColor=#ED7100;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;spacingRight=8;" parent="1" vertex="1">
+                    <mxGeometry x="800" y="160" width="360" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="s4" value="&lt;b&gt;4. Confidence Scoring&lt;/b&gt;&lt;br&gt;• Composite score = weighted(model self-confidence, schema pass/fail,&lt;br&gt;•   format validators, self-consistency re-check)&lt;br&gt;• Self-consistency: 2nd Gemini pass on low-certainty fields, compared&lt;br&gt;• Thresholds: &gt;=0.85 auto-approve, 0.6-0.85 human review, &lt;0.6 reject&lt;br&gt;• Emits per-field + overall confidence to Prompt DB record" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#ED7100;strokeWidth=2;fontSize=10;fontColor=#ED7100;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;spacingRight=8;" parent="1" vertex="1">
+                    <mxGeometry x="1180" y="160" width="360" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="s5" value="&lt;b&gt;5. Persistence &amp; Ack&lt;/b&gt;&lt;br&gt;• Writes full record (prompt, response, scores, latency, tokens)&lt;br&gt;•   to Prompt DB (DynamoDB)&lt;br&gt;• Writes final structured result to Results Store (S3 / DynamoDB)&lt;br&gt;• Deletes SQS message on success (explicit ack)&lt;br&gt;• Unhandled failure: message expires -&gt; redrive to DLQ after&lt;br&gt;•   maxReceiveCount" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;strokeWidth=2;fontSize=10;fontColor=#2E7D32;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;spacingRight=8;" parent="1" vertex="1">
+                    <mxGeometry x="1560" y="160" width="360" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="resband" value="&lt;b&gt;Shared Resilience Layer&lt;/b&gt; - wraps every Gemini call made by stages 2-4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#9E9E9E;strokeWidth=2;dashed=1;fontSize=11;fontStyle=1;fontColor=#424242;align=left;verticalAlign=top;spacingLeft=12;spacingTop=8;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="600" width="1120" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1" value="&lt;b&gt;Token-Bucket Rate Limiter&lt;/b&gt;&lt;br&gt;• Backed by Redis / Amazon ElastiCache&lt;br&gt;• Shared bucket across all ECS tasks&lt;br&gt;• Prevents Gemini 429s under scale-out" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9E9E9E;strokeWidth=1;fontSize=10;fontColor=#424242;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="640" width="340" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2" value="&lt;b&gt;Retry + Backoff&lt;/b&gt;&lt;br&gt;• tenacity-style decorator per Gemini call&lt;br&gt;• Exponential backoff + jitter, max 3 attempts&lt;br&gt;• Retries 429/500/503/timeout only" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9E9E9E;strokeWidth=1;fontSize=10;fontColor=#424242;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" parent="1" vertex="1">
+                    <mxGeometry x="800" y="640" width="340" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3" value="&lt;b&gt;Circuit Breaker&lt;/b&gt;&lt;br&gt;• Opens if error rate &gt; threshold in window&lt;br&gt;• Open -&gt; pause SQS consumption (backpressure)&lt;br&gt;• Half-open probe before fully closing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9E9E9E;strokeWidth=1;fontSize=10;fontColor=#424242;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" parent="1" vertex="1">
+                    <mxGeometry x="1160" y="640" width="340" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="gemini_img" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/jpeg,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;" parent="1" vertex="1">
+                    <mxGeometry x="1600" y="655" width="175" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="gemini_lbl" value="Google Gemini AP" style="text;html=1;align=center;verticalAlign=top;fontSize=10;fontStyle=2;fontColor=#3F51B5;" parent="1" vertex="1">
+                    <mxGeometry x="1580" y="760" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="c1" value="&lt;b style=&quot;color:#9CDCFE&quot;&gt;SQS Message Schema&lt;/b&gt;&lt;br&gt;&lt;br&gt;{&lt;br&gt;  &quot;document_id&quot;: &quot;doc_8f3a...&quot;,&lt;br&gt;  &quot;s3_key&quot;: &quot;raw/doc_8f3a.pdf&quot;,&lt;br&gt;  &quot;doc_type_hint&quot;: null,&lt;br&gt;  &quot;received_at&quot;: &quot;2026-08-20T10:15:00Z&quot;&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E1E1E;strokeColor=#444444;strokeWidth=1;fontSize=10;fontColor=#D4D4D4;fontFamily=Courier New;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="850" width="360" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="c2" value="&lt;b style=&quot;color:#9CDCFE&quot;&gt;Classification Output&lt;/b&gt;&lt;br&gt;&lt;br&gt;{&lt;br&gt;  &quot;doc_type&quot;: &quot;invoice&quot;,&lt;br&gt;  &quot;category_path&quot;:&lt;br&gt;    [&quot;finance&quot;,&quot;ap&quot;,&quot;invoice&quot;],&lt;br&gt;  &quot;model_confidence&quot;: 0.93&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E1E1E;strokeColor=#444444;strokeWidth=1;fontSize=10;fontColor=#D4D4D4;fontFamily=Courier New;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="850" width="360" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="c3" value="&lt;b style=&quot;color:#9CDCFE&quot;&gt;Extraction Output&lt;/b&gt;&lt;br&gt;&lt;br&gt;{&lt;br&gt;  &quot;fields&quot;: {&lt;br&gt;    &quot;vendor&quot;: &quot;...&quot;,&lt;br&gt;    &quot;amount&quot;: 1042.50,&lt;br&gt;    &quot;invoice_date&quot;: &quot;2026-08-01&quot;&lt;br&gt;  },&lt;br&gt;  &quot;field_confidences&quot;: {...}&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E1E1E;strokeColor=#444444;strokeWidth=1;fontSize=10;fontColor=#D4D4D4;fontFamily=Courier New;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" parent="1" vertex="1">
+                    <mxGeometry x="800" y="850" width="360" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="c4" value="&lt;b style=&quot;color:#9CDCFE&quot;&gt;Prompt DB Item (DynamoDB)&lt;/b&gt;&lt;br&gt;&lt;br&gt;{&lt;br&gt;  &quot;pk&quot;: &quot;doc_8f3a...&quot;,&lt;br&gt;  &quot;sk&quot;: &quot;2026-08-20T10:15:03Z&quot;,&lt;br&gt;  &quot;prompt_tokens&quot;: 812,&lt;br&gt;  &quot;response_tokens&quot;: 140,&lt;br&gt;  &quot;latency_ms&quot;: 640,&lt;br&gt;  &quot;overall_confidence&quot;: 0.92,&lt;br&gt;  &quot;route&quot;: &quot;auto_approve&quot;&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E1E1E;strokeColor=#444444;strokeWidth=1;fontSize=10;fontColor=#D4D4D4;fontFamily=Courier New;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" parent="1" vertex="1">
+                    <mxGeometry x="1180" y="850" width="360" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="c5" value="&lt;b style=&quot;color:#9CDCFE&quot;&gt;Results Record (S3/DynamoDB)&lt;/b&gt;&lt;br&gt;&lt;br&gt;{&lt;br&gt;  &quot;document_id&quot;: &quot;doc_8f3a...&quot;,&lt;br&gt;  &quot;doc_type&quot;: &quot;invoice&quot;,&lt;br&gt;  &quot;fields&quot;: {...},&lt;br&gt;  &quot;confidence&quot;: 0.92,&lt;br&gt;  &quot;status&quot;: &quot;COMPLETED&quot;&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E1E1E;strokeColor=#444444;strokeWidth=1;fontSize=10;fontColor=#D4D4D4;fontFamily=Courier New;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" parent="1" vertex="1">
+                    <mxGeometry x="1560" y="850" width="360" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="badge_dynamo" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=10;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;" parent="1" vertex="1">
+                    <mxGeometry x="1180" y="810" width="32" height="32" as="geometry"/>
+                </mxCell>
+                <mxCell id="badge_s3" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=10;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" parent="1" vertex="1">
+                    <mxGeometry x="1560" y="810" width="32" height="32" as="geometry"/>
+                </mxCell>
+                <mxCell id="taxonomy" value="&lt;b&gt;Taxonomy &amp; Field-Schema Registry&lt;/b&gt;&lt;br&gt;• Versioned JSON/YAML: category taxonomy + per-doc-type extraction schema&lt;br&gt;• Stored in S3 (or Parameter Store); loaded + cached in-memory at task start&lt;br&gt;• Matches the &#39;taxonomy&#39; component shown in Sheet 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2EBFB;strokeColor=#8C4FFF;strokeWidth=1;fontSize=10;fontColor=#5A2EA6;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="1200" width="900" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="review" value="&lt;b&gt;Low-Confidence / Failed-Validation Path&lt;/b&gt;&lt;br&gt;• Routed to a separate Review Queue (SQS) or SNS alert&lt;br&gt;• Reviewed items re-enter pipeline after human correction&lt;br&gt;• Hard validation failures (not just low score) -&gt; DLQ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDEBEA;strokeColor=#DD344C;strokeWidth=1;fontSize=10;fontColor=#DD344C;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" parent="1" vertex="1">
+                    <mxGeometry x="1180" y="1200" width="360" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="d1" value="&lt;b&gt;Container Image&lt;/b&gt;&lt;br&gt;• Docker, multi-stage build&lt;br&gt;• Python 3.11-slim base image&lt;br&gt;• Non-root user, minimal deps&lt;br&gt;• Pushed to Amazon ECR" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#607D8B;strokeWidth=1;fontSize=10;fontColor=#455A64;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="1360" width="420" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="d2" value="&lt;b&gt;ECS Fargate Task Definition&lt;/b&gt;&lt;br&gt;• vCPU / memory sized to worker pool&lt;br&gt;• IAM Task Role (least privilege)&lt;br&gt;• Secrets injected from Secrets Manager&lt;br&gt;• SIGTERM drains in-flight message before exit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#607D8B;strokeWidth=1;fontSize=10;fontColor=#455A64;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="1360" width="420" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="d3" value="&lt;b&gt;Logging &amp; Metrics&lt;/b&gt;&lt;br&gt;• Structured JSON logs -&gt; CloudWatch Logs&lt;br&gt;• Custom metrics via Embedded Metric Format (EMF)&lt;br&gt;• Tracks latency, confidence dist., tokens, errors&lt;br&gt;• correlation_id = document_id across all logs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#607D8B;strokeWidth=1;fontSize=10;fontColor=#455A64;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" parent="1" vertex="1">
+                    <mxGeometry x="920" y="1360" width="420" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="d4" value="&lt;b&gt;CI/CD [assumed - not specified]&lt;/b&gt;&lt;br&gt;• Build &amp; test on push&lt;br&gt;• Docker build -&gt; push to ECR&lt;br&gt;• ECS service updated to new task def revision" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECEFF1;strokeColor=#607D8B;strokeWidth=1;fontSize=10;fontColor=#455A64;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" parent="1" vertex="1">
+                    <mxGeometry x="1360" y="1360" width="420" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend" value="&lt;b&gt;Legend&lt;/b&gt;&lt;br&gt;Boxes describe internal application logic, not AWS infrastructure (see Sheet 1 for that).&lt;br&gt;Dashed orange arrows = every Gemini call passes through the Resilience Layer.&lt;br&gt;Dashed purple = taxonomy/schema lookup. Dashed red = low-confidence routing.&lt;br&gt;Implementation details reflect a typical/idiomatic approach for this pattern - adjust specifics to match your actual code before the interview." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAFAFA;strokeColor=#CCCCCC;strokeWidth=1;fontSize=10;fontColor=#555555;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="1660" width="1200" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="e_s1s2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#232F3E;strokeWidth=2;fontSize=9;fontColor=#232F3E;" parent="1" source="s1" target="s2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e_s2s3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#232F3E;strokeWidth=2;fontSize=9;fontColor=#232F3E;" parent="1" source="s2" target="s3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e_s3s4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#232F3E;strokeWidth=2;fontSize=9;fontColor=#232F3E;" parent="1" source="s3" target="s4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e_s4s5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#232F3E;strokeWidth=2;fontSize=9;fontColor=#232F3E;" parent="1" source="s4" target="s5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e_r1r2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#232F3E;strokeWidth=2;fontSize=9;fontColor=#232F3E;" parent="1" source="r1" target="r2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e_r2r3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#232F3E;strokeWidth=2;fontSize=9;fontColor=#232F3E;" parent="1" source="r2" target="r3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e_s2res" value="Gemini call" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1;strokeColor=#ED7100;strokeWidth=1;fontSize=9;fontColor=#ED7100;" parent="1" source="s2" target="r1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e_s4res" value="Gemini call" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1;strokeColor=#ED7100;strokeWidth=1;fontSize=9;fontColor=#ED7100;" parent="1" source="s4" target="r1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1360" y="590"/>
+                            <mxPoint x="610" y="590"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e_r3gem" value="HTTPS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#232F3E;strokeWidth=2;fontSize=9;fontColor=#232F3E;" parent="1" source="r3" target="gemini_img" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e_tax_s2" value="schema lookup" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1;strokeColor=#8C4FFF;strokeWidth=1;fontSize=9;fontColor=#8C4FFF;" parent="1" source="taxonomy" target="s2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="410" y="360"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e_tax_s3" value="schema lookup" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1;strokeColor=#8C4FFF;strokeWidth=1;fontSize=9;fontColor=#8C4FFF;" parent="1" source="taxonomy" target="s3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="410" y="580"/>
+                            <mxPoint x="980" y="580"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e_s4_review" value="confidence &lt; 0.85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1;strokeColor=#DD344C;strokeWidth=1;fontSize=9;fontColor=#DD344C;" parent="1" source="s4" target="review" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1550" y="360"/>
+                            <mxPoint x="1550" y="1260"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

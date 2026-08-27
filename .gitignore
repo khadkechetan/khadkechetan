@@ -1,1 +1,18 @@
 .DS_Store
+
+# Local-only working material (interview prep, JD notes, lab code) — never publish
+Learning Material/
+
+# Editor
+.vscode/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local state / scratch data
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.jsonl
