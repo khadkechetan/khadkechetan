@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="pageAgenticToday" name="1 - Production Today (Multi-Agent)">
-        <mxGraphModel dx="2371" dy="1119" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1750" pageHeight="1150" math="0" shadow="0">
+        <mxGraphModel dx="1343" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1750" pageHeight="1150" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -21,6 +21,9 @@
                 </mxCell>
                 <mxCell id="p1_sqs" value="Ingestion Queue&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=10;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" parent="1" vertex="1">
                     <mxGeometry x="380" y="470" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="p1_rt" target="p1_gate">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="p1_rt" value="Agent Runtime  -  Amazon ECS Fargate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#ED7100;strokeWidth=2;fontSize=13;fontStyle=1;fontColor=#ED7100;align=center;verticalAlign=top;spacingTop=8;" parent="1" vertex="1">
                     <mxGeometry x="520" y="210" width="620" height="430" as="geometry"/>
@@ -62,7 +65,7 @@
                     <mxGeometry x="440" y="800" width="60" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="p1_dlq" value="DLQ&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=10;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" parent="1" vertex="1">
-                    <mxGeometry x="1080" y="800" width="60" height="60" as="geometry"/>
+                    <mxGeometry x="1210" y="790" width="60" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="p1_e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#232F3E;strokeWidth=2;fontSize=9;fontColor=#232F3E;dashed=0;labelBackgroundColor=#FFFFFF;" parent="1" source="p1_docs" target="p1_raws3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
